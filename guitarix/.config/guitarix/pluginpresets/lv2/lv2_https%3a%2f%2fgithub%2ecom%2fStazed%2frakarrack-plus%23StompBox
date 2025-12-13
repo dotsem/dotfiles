@@ -1,0 +1,90 @@
+["gx_plugin_version", 1,
+  "Amp 1" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 65.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 32.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 32.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 0.0
+  },
+  "Grunger" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 85.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 10.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 55.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": -6.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 1.0
+  },
+  "Classic Fuzz" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 7.0
+  },
+  "Amp 2" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 40.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 0.0
+  },
+  "Ratula" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 70.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": -20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 2.0
+  },
+  "Gnasty" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": -13.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 7.0
+  },
+  "Sharp Metal" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": -12.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 6.0
+  },
+  "Classic Dist." {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 110.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 50.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 4.0
+  },
+  "Hard Dist." {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 12.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": -22.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 38.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": -6.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 1.0
+  },
+  "Morbid Impalement" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 105.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 6.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 38.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 6.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": 6.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 5.0
+  },
+  "Odie" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.9": 10.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.6": 32.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.5": 80.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.8": 32.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23StompBox.10": 0.0
+  }
+]

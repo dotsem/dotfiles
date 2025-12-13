@@ -1,0 +1,101 @@
+["gx_plugin_version", 1,
+  "Panning Echo 1" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 24.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 705.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 60.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 82.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 17.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 0.0
+  },
+  "Panning Echo 2" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 18.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 737.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 46.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 68.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 100.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 118.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": -4.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 0.0
+  },
+  "Panning Echo 3" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 36.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 472.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 46.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 67.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 100.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": -4.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 0.0
+  },
+  "Simple Echo" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 705.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 60.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": -4.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 0.0
+  },
+  "Canyon" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 48.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 1610.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 60.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 82.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 50.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": -4.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 0.0
+  },
+  "Echo 2" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 357.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 60.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 59.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 64.0
+  },
+  "Echo 1" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 565.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 60.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 59.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 127.0
+  },
+  "Echo 3" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 10.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 955.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 60.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 59.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": 11.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 0.0
+  },
+  "Feedback Echo" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.11": 55.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.7": 456.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.13": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.5": 65.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.10": 90.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.9": 100.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23eco.12": 0.0
+  }
+]

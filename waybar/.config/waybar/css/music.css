@@ -1,0 +1,36 @@
+#custom-music_prev,
+#custom-music_play,
+#custom-music_next,
+#custom-music_text {
+    padding: 0 8px;
+    border-radius: 0;
+    background-color: rgba(32, 41, 31, 0.486);
+}
+
+#image {
+    background-color: rgba(32, 41, 31, 0.486);
+    border-radius: 0;
+
+}
+
+#custom-music_text {
+    margin-right: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#custom-music_prev {
+    margin-left: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#custom-music_prev:hover,
+#custom-music_next:hover {
+    background-color: rgba(90, 90, 71, 0.486);
+}
+
+#custom-music_play:hover {
+    background-color: rgb(123, 194, 17);
+    color: white;
+}

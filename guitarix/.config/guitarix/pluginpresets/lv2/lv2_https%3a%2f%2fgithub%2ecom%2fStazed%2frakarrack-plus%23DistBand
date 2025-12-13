@@ -1,0 +1,138 @@
+["gx_plugin_version", 1,
+  "Crunch" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 24.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 1800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 80.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 19.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 19.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 14.0
+  },
+  "Modulated" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 36.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 500.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 40.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 2200.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 70.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 18.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 18.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 17.0
+  },
+  "Distortion 4" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 30.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 83.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 329.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 51.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 26.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 19.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 25.0
+  },
+  "Saturation" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 41.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 35.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 400.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 41.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 1200.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 26.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 26.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 19.0
+  },
+  "Distorsion 1" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 40.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 288.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 38.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 1315.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 49.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 13.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 14.0
+  },
+  "Soft" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 32.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 50.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 400.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 50.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 1800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 70.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 6.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 6.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 13.0
+  },
+  "Distortion 3" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 50.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 50.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 1200.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 69.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 27.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 27.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 22.0
+  },
+  "Distortion 2" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.15": 25.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.9": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.17": 440.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.13": 25.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.18": 1500.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.14": 50.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.19": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.12": 22.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.10": 22.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23DistBand.11": 27.0
+  }
+]

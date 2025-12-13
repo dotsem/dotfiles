@@ -1,0 +1,86 @@
+["gx_plugin_version", 1,
+  "Phaser 5" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.11": 67.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.5": 63.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.12": 78.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.14": -64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.16": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.13": 10.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.10": 110.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.7": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.9": 1.0
+  },
+  "Phaser 6" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.11": 37.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.5": 63.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.12": 78.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.14": -64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.16": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.8": 100.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.13": 3.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.10": 58.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.7": 31.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.9": 0.0
+  },
+  "Phaser 2" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.11": 40.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.5": 63.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.12": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.14": -64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.16": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.13": 3.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.10": 88.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.7": 10.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.9": 0.0
+  },
+  "Phaser 1" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.11": 110.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.5": 63.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.12": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.14": -64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.16": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.13": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.10": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.7": 11.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.9": 0.0
+  },
+  "Phaser 4" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.11": 67.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.5": 88.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.12": 10.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.14": -64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.16": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.13": 5.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.10": 66.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.15": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.7": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.9": 0.0
+  },
+  "Phaser 3" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.11": 68.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.5": 63.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.12": 107.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.14": -64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.6": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.16": 20.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.8": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.13": 2.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.10": 66.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.7": 8.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23phas.9": 0.0
+  }
+]

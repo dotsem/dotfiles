@@ -1,0 +1,66 @@
+["gx_plugin_version", 1,
+  "Vary 3" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.18": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.12": 800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.16": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.17": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.14": 5200.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.13": 2300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.6": 120.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.9": 40.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.10": 0.0
+  },
+  "Vary 2" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.18": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.12": 120.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.16": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.17": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.14": 2300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.13": 600.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.6": 80.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.9": 40.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.10": 0.0
+  },
+  "Vary 4" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.18": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.12": 150.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.17": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.14": 12000.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.13": 1200.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.8": 62.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.11": 62.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.6": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.9": 120.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.10": 0.0
+  },
+  "Vary 1" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.5": 127.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.18": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.15": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.12": 500.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.16": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.17": 1.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.14": 5000.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.13": 2500.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.8": 64.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.6": 40.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.9": 80.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.7": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23VaryBand.10": 0.0
+  }
+]

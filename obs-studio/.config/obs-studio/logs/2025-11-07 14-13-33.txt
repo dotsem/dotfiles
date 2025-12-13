@@ -1,0 +1,513 @@
+14:13:33.552: Platform: Wayland
+14:13:33.552: CPU Name: 12th Gen Intel(R) Core(TM) i7-1255U
+14:13:33.552: CPU Speed: 4099.957MHz
+14:13:33.552: Physical Cores: 10, Logical Cores: 12
+14:13:33.552: Physical Memory: 31794MB Total, 3009MB Free
+14:13:33.552: Kernel Version: Linux 6.17.6-arch1-1
+14:13:33.552: Distribution: "Arch Linux" Unknown
+14:13:33.552: Desktop Environment: Hyprland (Hyprland)
+14:13:33.552: Session Type: wayland
+14:13:33.554: Current Date/Time: 2025-11-07, 02:13:33 PM
+14:13:33.554: Browser Hardware Acceleration: true
+14:13:33.554: Qt Version: 6.10.0 (runtime), 6.9.2 (compiled)
+14:13:33.554: Portable mode: false
+14:13:33.608: OBS 32.0.1 (linux)
+14:13:33.608: ---------------------------------
+14:13:33.610: ---------------------------------
+14:13:33.610: audio settings reset:
+14:13:33.610: 	samples per sec: 48000
+14:13:33.610: 	speakers:        2
+14:13:33.610: 	max buffering:   960 milliseconds
+14:13:33.610: 	buffering type:  dynamically increasing
+14:13:33.612: ---------------------------------
+14:13:33.612: Initializing OpenGL...
+14:13:33.612: Using EGL/Wayland
+14:13:33.644: Initialized EGL 1.5
+14:13:33.656: Loading up OpenGL on adapter Intel Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+14:13:33.656: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.2.6-arch1.1, shading language 4.60
+14:13:33.762: ---------------------------------
+14:13:33.762: video settings reset:
+14:13:33.762: 	base resolution:   1920x1080
+14:13:33.762: 	output resolution: 1280x720
+14:13:33.762: 	downscale filter:  Bicubic
+14:13:33.762: 	fps:               30/1
+14:13:33.762: 	format:            NV12
+14:13:33.762: 	YUV mode:          Rec. 709/Partial
+14:13:33.762: NV12 texture support enabled
+14:13:33.762: P010 texture support not available
+14:13:33.767: Audio monitoring device:
+14:13:33.767: 	name: Default
+14:13:33.767: 	id: default
+14:13:33.770: ---------------------------------
+14:13:33.772: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:13:33.773: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:13:33.774: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:13:33.774: Failed to initialize module 'decklink.so'
+14:13:33.854: [pipewire] Available capture sources:
+14:13:33.854: [pipewire]     - Monitor source
+14:13:33.854: [pipewire]     - Window source
+14:13:33.861: v4l2loopback not installed, virtual camera not registered
+14:13:33.885: VAAPI: API version 1.22
+14:13:33.885: FFmpeg VAAPI H264 encoding supported
+14:13:33.887: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+14:13:33.887: FFmpeg VAAPI AV1 encoding not supported
+14:13:33.888: FFmpeg VAAPI HEVC encoding supported
+14:13:34.479: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: false
+14:13:34.514: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+14:13:34.514: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.2 | Qt version (run-time): 6.10.0
+14:13:34.514: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+14:13:34.520: [obs-websocket] [obs_module_load] Module loaded.
+14:13:34.525: ---------------------------------
+14:13:34.525:   Loaded Modules:
+14:13:34.525:     text-freetype2.so
+14:13:34.525:     rtmp-services.so
+14:13:34.525:     obs-x264.so
+14:13:34.525:     obs-websocket.so
+14:13:34.525:     obs-webrtc.so
+14:13:34.525:     obs-vst.so
+14:13:34.525:     obs-transitions.so
+14:13:34.525:     obs-qsv11.so
+14:13:34.525:     obs-outputs.so
+14:13:34.525:     obs-nvenc.so
+14:13:34.525:     obs-libfdk.so
+14:13:34.525:     obs-filters.so
+14:13:34.525:     obs-ffmpeg.so
+14:13:34.525:     linux-v4l2.so
+14:13:34.525:     linux-pulseaudio.so
+14:13:34.525:     linux-pipewire.so
+14:13:34.525:     linux-jack.so
+14:13:34.525:     linux-capture.so
+14:13:34.525:     linux-alsa.so
+14:13:34.525:     image-source.so
+14:13:34.525:     frontend-tools.so
+14:13:34.525:     decklink-output-ui.so
+14:13:34.525:     decklink-captions.so
+14:13:34.525: ---------------------------------
+14:13:34.525: ---------------------------------
+14:13:34.525: Available Encoders:
+14:13:34.525:   Video Encoders:
+14:13:34.525: 	- ffmpeg_svt_av1 (SVT-AV1)
+14:13:34.525: 	- ffmpeg_aom_av1 (AOM AV1)
+14:13:34.525: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+14:13:34.525: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+14:13:34.525: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+14:13:34.525: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+14:13:34.525: 	- obs_qsv11_v2 (QuickSync H.264)
+14:13:34.525: 	- obs_qsv11_hevc (QuickSync HEVC)
+14:13:34.525: 	- obs_x264 (x264)
+14:13:34.525:   Audio Encoders:
+14:13:34.525: 	- ffmpeg_aac (FFmpeg AAC)
+14:13:34.525: 	- ffmpeg_opus (FFmpeg Opus)
+14:13:34.525: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+14:13:34.525: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+14:13:34.525: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+14:13:34.525: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+14:13:34.525: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+14:13:34.525: 	- libfdk_aac (libfdk AAC)
+14:13:34.525: ==== Startup complete ===============================================
+14:13:34.572: All scene data cleared
+14:13:34.572: ------------------------------------------------
+14:13:34.578: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:13:34.578: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:13:34.578: pulse-input: Started recording from 'bluez_output.04_CB_88_A7_9D_77.1.monitor'
+14:13:34.578: [Loaded global audio device]: 'Desktop Audio'
+14:13:34.578: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+14:13:34.579: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:13:34.579: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Mic1__source'
+14:13:34.579: [Loaded global audio device]: 'Mic/Aux'
+14:13:34.579: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+14:13:34.581: PipeWire initialized
+14:13:34.583: Switched to scene 'Scene'
+14:13:34.584: ------------------------------------------------
+14:13:34.584: Loaded scenes:
+14:13:34.584: - scene 'Scene':
+14:13:34.584:     - source: 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source)
+14:13:34.584:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+14:13:34.584: ------------------------------------------------
+14:13:34.697: [camera-portal] Successfully accessed cameras
+14:13:34.697: [pipewire] Screencast session created
+14:13:34.864: [pipewire] Server version: 1.4.9
+14:13:34.864: [pipewire] Library version: 1.4.9
+14:13:34.864: [pipewire] Header version: 1.4.8
+14:13:34.865: [pipewire] Created registry 0x55e2e782b670
+14:13:34.865: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+14:13:34.865: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_6_1.0
+14:13:35.076: [rtmp-services plugin] Successfully updated file 'services.json' (version 281)
+14:13:35.076: [rtmp-services plugin] Successfully updated package (version 281)
+14:13:35.147: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+14:13:35.147: 
+14:13:42.634: [pipewire] Asking for monitor and window
+14:13:42.657: [pipewire] source selected, setting up screencast
+14:13:42.664: [pipewire] Server version: 1.4.9
+14:13:42.664: [pipewire] Library version: 1.4.9
+14:13:42.664: [pipewire] Header version: 1.4.8
+14:13:42.665: [pipewire] Created stream 0x55e2e7861d70
+14:13:42.665: [pipewire] Stream 0x55e2e7861d70 state: "connecting" (error: none)
+14:13:42.665: [pipewire] Playing stream 0x55e2e7861d70
+14:13:42.665: [pipewire] Stream 0x55e2e7861d70 state: "paused" (error: none)
+14:13:42.683: [pipewire] Negotiated format:
+14:13:42.684: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:13:42.684: [pipewire]     Modifier: 0x0
+14:13:42.684: [pipewire]     Size: 1920x1080
+14:13:42.684: [pipewire]     Framerate: 0/1
+14:13:42.685: [pipewire] Negotiated format:
+14:13:42.685: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:13:42.685: [pipewire]     Modifier: 0x100000000000008
+14:13:42.685: [pipewire]     Size: 1920x1080
+14:13:42.685: [pipewire]     Framerate: 0/1
+14:13:42.693: [pipewire] Stream 0x55e2e7861d70 state: "streaming" (error: none)
+14:13:42.708: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+14:13:42.708: [pipewire] Renegotiating stream
+14:13:42.708: [pipewire] Stream 0x55e2e7861d70 state: "paused" (error: none)
+14:13:42.708: [pipewire] Negotiated format:
+14:13:42.708: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:13:42.708: [pipewire]     Modifier: 0x100000000000008
+14:13:42.708: [pipewire]     Size: 1920x1080
+14:13:42.708: [pipewire]     Framerate: 0/1
+14:13:42.710: [pipewire] Negotiated format:
+14:13:42.710: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:13:42.710: [pipewire]     Modifier: 0x100000000000006
+14:13:42.710: [pipewire]     Size: 1920x1080
+14:13:42.710: [pipewire]     Framerate: 0/1
+14:13:42.717: [pipewire] Stream 0x55e2e7861d70 state: "streaming" (error: none)
+14:13:42.811: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+14:13:42.811: [pipewire] Renegotiating stream
+14:13:42.812: [pipewire] Stream 0x55e2e7861d70 state: "paused" (error: none)
+14:13:42.812: [pipewire] Negotiated format:
+14:13:42.812: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:13:42.812: [pipewire]     Modifier: 0x100000000000006
+14:13:42.812: [pipewire]     Size: 1920x1080
+14:13:42.812: [pipewire]     Framerate: 0/1
+14:13:42.815: [pipewire] Negotiated format:
+14:13:42.815: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:13:42.815: [pipewire]     Modifier: 0x100000000000002
+14:13:42.815: [pipewire]     Size: 1920x1080
+14:13:42.815: [pipewire]     Framerate: 0/1
+14:13:42.823: [pipewire] Stream 0x55e2e7861d70 state: "streaming" (error: none)
+14:13:49.921: [camera-portal] Selected format for ''
+14:13:49.921: [camera-portal] selected camera ''
+14:13:49.939: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e6f07cc0 with focusing surface 0x55e2e2ec3130
+14:13:50.753: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e6f07cc0 with focusing surface 0x55e2e2ec3130
+14:13:53.445: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_6_1.0'
+14:13:53.445: [camera-portal] Updating pixel formats
+14:13:53.445: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_6_1.0'
+14:13:53.445: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+14:13:53.446: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_6_1.0'
+14:13:53.446: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_6_1.0'
+14:13:53.446: [pipewire] Created stream 0x55e2e6ffa100
+14:13:53.447: [pipewire] Stream 0x55e2e6ffa100 state: "connecting" (error: none)
+14:13:53.447: [pipewire] Playing stream 0x55e2e6ffa100
+14:13:53.447: [pipewire] Stream 0x55e2e6ffa100 state: "paused" (error: none)
+14:13:53.448: [pipewire] Renegotiating stream
+14:13:53.467: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_6_1.0
+14:13:53.634: [pipewire] Negotiated format:
+14:13:53.634: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:13:53.634: [pipewire]     Size: 1280x720
+14:13:53.634: [pipewire]     Framerate: 10/1
+14:13:53.636: [pipewire] Stream 0x55e2e6ffa100 state: "streaming" (error: none)
+14:15:25.821: [pipewire] Stream 0x55e2e6ffa100 state: "paused" (error: none)
+14:15:25.822: [pipewire-camera] Removed device v4l2_input.pci-0000_00_14.0-usb-0_6_1.0
+14:15:25.822: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_6_1.0'
+14:15:25.822: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_6_1.0'
+14:15:25.923: [pipewire] Negotiated format:
+14:15:25.923: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:15:25.923: [pipewire]     Size: 1280x720
+14:15:25.923: [pipewire]     Framerate: 10/1
+14:15:25.925: [pipewire] Stream 0x55e2e6ffa100 state: "streaming" (error: none)
+14:15:39.053: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:15:39.053: [camera-portal] Updating pixel formats
+14:15:39.053: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:15:39.054: [pipewire] Stream 0x55e2e6ffa100 state: "paused" (error: none)
+14:15:39.055: [pipewire] Stream 0x55e2e6ffa100 state: "unconnected" (error: none)
+14:15:39.056: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:15:39.056: [pipewire] Created stream 0x55e2e70f21c0
+14:15:39.056: [pipewire] Stream 0x55e2e70f21c0 state: "connecting" (error: none)
+14:15:39.056: [pipewire] Playing stream 0x55e2e70f21c0
+14:15:39.067: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+14:15:39.223: [pipewire] Stream 0x55e2e70f21c0 state: "paused" (error: none)
+14:15:39.242: [pipewire] Negotiated format:
+14:15:39.242: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:15:39.242: [pipewire]     Size: 1280x720
+14:15:39.242: [pipewire]     Framerate: 10/1
+14:15:39.248: [pipewire] Stream 0x55e2e70f21c0 state: "streaming" (error: none)
+14:15:44.876: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e6f07cc0 with focusing surface 0x55e2e2ec3130
+14:15:45.333: [camera-portal] Updating device 
+14:15:45.333: [pipewire] Stream 0x55e2e70f21c0 state: "paused" (error: none)
+14:15:45.334: [pipewire] Stream 0x55e2e70f21c0 state: "unconnected" (error: none)
+14:15:47.091: [camera-portal] Selected format for ''
+14:15:47.091: [camera-portal] selected camera ''
+14:15:47.108: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e703a720 with focusing surface 0x55e2e2ec3130
+14:15:47.470: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e703a720 with focusing surface 0x55e2e2ec3130
+14:15:49.733: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:15:49.733: [camera-portal] Updating pixel formats
+14:15:49.733: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+14:15:49.733: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:15:49.733: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+14:15:49.735: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:15:49.735: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:15:49.735: [pipewire] Created stream 0x55e2e6f169f0
+14:15:49.735: [pipewire] Stream 0x55e2e6f169f0 state: "connecting" (error: none)
+14:15:49.735: [pipewire] Playing stream 0x55e2e6f169f0
+14:15:49.736: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:15:49.736: [pipewire] Renegotiating stream
+14:15:49.767: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+14:15:49.844: [pipewire] Negotiated format:
+14:15:49.845: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:15:49.845: [pipewire]     Size: 1280x720
+14:15:49.845: [pipewire]     Framerate: 10/1
+14:15:49.852: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:16:04.596: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0
+14:16:04.597: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:16:04.597: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:16:04.597: [camera-portal] Updating pixel formats
+14:16:04.597: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+14:16:06.954: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0'
+14:16:06.954: [camera-portal] Updating pixel formats
+14:16:06.954: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0'
+14:16:06.955: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:16:06.956: [pipewire] Stream 0x55e2e6f169f0 state: "unconnected" (error: none)
+14:16:06.956: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0'
+14:16:06.956: [pipewire] Created stream 0x55e2e6f169f0
+14:16:06.956: [pipewire] Stream 0x55e2e6f169f0 state: "connecting" (error: none)
+14:16:06.956: [pipewire] Playing stream 0x55e2e6f169f0
+14:16:06.967: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0
+14:16:07.105: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:16:07.260: [pipewire] Negotiated format:
+14:16:07.260: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:16:07.260: [pipewire]     Size: 1280x720
+14:16:07.260: [pipewire]     Framerate: 10/1
+14:16:07.262: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:16:18.556: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:16:18.557: [pipewire-camera] Removed device v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0
+14:16:18.557: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0'
+14:16:18.557: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0'
+14:16:18.653: [pipewire] Negotiated format:
+14:16:18.653: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:16:18.653: [pipewire]     Size: 1280x720
+14:16:18.653: [pipewire]     Framerate: 10/1
+14:16:18.657: [pipewire] Negotiated format:
+14:16:18.657: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:16:18.658: [pipewire]     Size: 1280x720
+14:16:18.658: [pipewire]     Framerate: 10/1
+14:16:18.659: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:16:53.266: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:16:53.272: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0'
+14:16:53.272: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.3_1.0'
+14:17:28.113: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:17:28.113: [camera-portal] Updating pixel formats
+14:17:28.113: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:17:28.113: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:17:28.113: [pipewire] Stream 0x55e2e6f169f0 state: "unconnected" (error: none)
+14:17:28.113: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:17:28.113: [pipewire] Created stream 0x55e2e6f169f0
+14:17:28.114: [pipewire] Stream 0x55e2e6f169f0 state: "connecting" (error: none)
+14:17:28.114: [pipewire] Playing stream 0x55e2e6f169f0
+14:17:28.120: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:17:28.133: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:17:28.275: [pipewire] Negotiated format:
+14:17:28.276: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:17:28.276: [pipewire]     Size: 1280x720
+14:17:28.276: [pipewire]     Framerate: 10/1
+14:17:28.277: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:18:10.233: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:16.533: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:19.067: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:21.700: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:28.400: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:31.333: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:34.200: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:38.667: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:48.933: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:51.133: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:53.733: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:56.133: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:18:59.267: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:01.467: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:04.167: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:04.600: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:04.900: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:12.262: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:12.262: [pipewire] Renegotiating stream
+14:19:12.262: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:19:12.267: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:12.392: [pipewire] Negotiated format:
+14:19:12.392: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:19:12.392: [pipewire]     Size: 752x416
+14:19:12.392: [pipewire]     Framerate: 20/1
+14:19:12.478: [pipewire] Negotiated format:
+14:19:12.478: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:19:12.478: [pipewire]     Size: 752x416
+14:19:12.478: [pipewire]     Framerate: 20/1
+14:19:12.480: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:19:14.170: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:14.170: [pipewire] Renegotiating stream
+14:19:14.170: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:19:14.173: [pipewire] Renegotiating stream
+14:19:14.200: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:14.308: [pipewire] Negotiated format:
+14:19:14.308: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:19:14.308: [pipewire]     Size: 320x176
+14:19:14.308: [pipewire]     Framerate: 30/1
+14:19:14.389: [pipewire] Negotiated format:
+14:19:14.389: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:19:14.389: [pipewire]     Size: 320x176
+14:19:14.389: [pipewire]     Framerate: 15/1
+14:19:14.473: [pipewire] Negotiated format:
+14:19:14.473: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:19:14.473: [pipewire]     Size: 320x176
+14:19:14.473: [pipewire]     Framerate: 15/1
+14:19:14.474: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:19:17.734: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:17.734: [pipewire] Renegotiating stream
+14:19:17.735: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:19:17.736: [pipewire] Renegotiating stream
+14:19:17.767: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:17.850: [pipewire] Stream 0x55e2e6f169f0 state: "error" (error: no more input formats)
+14:19:17.850: [pipewire] Error id:4 seq:338 res:-32 (Broken pipe): no more input formats
+14:19:20.502: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:20.502: [pipewire] Renegotiating stream
+14:19:20.533: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:22.888: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:22.888: [pipewire] Renegotiating stream
+14:19:22.890: [pipewire] Renegotiating stream
+14:19:22.900: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:25.319: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:25.320: [pipewire] Renegotiating stream
+14:19:25.333: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:27.034: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:27.034: [pipewire] Renegotiating stream
+14:19:27.036: [pipewire] Renegotiating stream
+14:19:27.067: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:36.533: [camera-portal] Updating device 
+14:19:36.534: [pipewire] Stream 0x55e2e6f169f0 state: "unconnected" (error: none)
+14:19:38.183: [camera-portal] Selected format for ''
+14:19:38.183: [camera-portal] selected camera ''
+14:19:38.197: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e71236a0 with focusing surface 0x55e2e2ec3130
+14:19:40.340: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:40.341: [camera-portal] Updating pixel formats
+14:19:40.341: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:40.341: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+14:19:40.342: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:40.342: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:40.342: [pipewire] Created stream 0x55e2e6f169f0
+14:19:40.342: [pipewire] Stream 0x55e2e6f169f0 state: "connecting" (error: none)
+14:19:40.342: [pipewire] Playing stream 0x55e2e6f169f0
+14:19:40.343: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:19:40.343: [pipewire] Renegotiating stream
+14:19:40.367: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:40.481: [pipewire] Negotiated format:
+14:19:40.481: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:19:40.481: [pipewire]     Size: 1280x720
+14:19:40.481: [pipewire]     Framerate: 10/1
+14:19:40.484: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:19:53.709: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:19:53.709: [pipewire] Renegotiating stream
+14:19:53.709: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:19:53.711: [pipewire] Renegotiating stream
+14:19:53.733: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:19:53.795: [pipewire] Stream 0x55e2e6f169f0 state: "error" (error: no more input formats)
+14:19:53.795: [pipewire] Error id:4 seq:383 res:-32 (Broken pipe): no more input formats
+14:20:11.414: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e71236a0 with focusing surface 0x55e2e2ec3130
+14:20:21.077: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:20:21.077: [pipewire] Renegotiating stream
+14:20:21.100: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:20:23.133: [camera-portal] Updating device 
+14:20:23.134: [pipewire] Stream 0x55e2e6f169f0 state: "unconnected" (error: none)
+14:20:24.476: [camera-portal] Selected format for ''
+14:20:24.476: [camera-portal] selected camera ''
+14:20:24.491: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x55e2e2c45010 with focusing surface 0x55e2e2ec3130
+14:20:26.988: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:20:26.988: [camera-portal] Updating pixel formats
+14:20:26.988: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:20:26.988: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+14:20:26.989: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:20:26.989: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0'
+14:20:26.989: [pipewire] Created stream 0x55e2e6f169f0
+14:20:26.989: [pipewire] Stream 0x55e2e6f169f0 state: "connecting" (error: none)
+14:20:26.990: [pipewire] Playing stream 0x55e2e6f169f0
+14:20:26.990: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:20:26.991: [pipewire] Renegotiating stream
+14:20:27.000: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:20:27.133: [pipewire] Negotiated format:
+14:20:27.133: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+14:20:27.133: [pipewire]     Size: 1280x720
+14:20:27.133: [pipewire]     Framerate: 10/1
+14:20:27.136: [pipewire] Stream 0x55e2e6f169f0 state: "streaming" (error: none)
+14:31:49.300: [pipewire] Stream 0x55e2e6f169f0 state: "paused" (error: none)
+14:31:58.602: [pipewire-camera] Removed device v4l2_input.pci-0000_00_14.0-usb-0_5.2_1.0
+14:32:13.200: ==== Shutting down ==================================================
+14:32:13.203: pulse-input: Stopped recording from 'bluez_output.04_CB_88_A7_9D_77.1.monitor'
+14:32:13.203: pulse-input: Got 44744 packets with 53692800 frames
+14:32:13.203: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Mic1__source'
+14:32:13.203: pulse-input: Got 44727 packets with 53672400 frames
+14:32:13.203: [pipewire] Stream 0x55e2e7861d70 state: "paused" (error: none)
+14:32:13.204: [pipewire] Stream 0x55e2e7861d70 state: "unconnected" (error: none)
+14:32:13.205: [pipewire] Stream 0x55e2e6f169f0 state: "unconnected" (error: none)
+14:32:13.261: All scene data cleared
+14:32:13.261: ------------------------------------------------
+14:32:13.313: [obs-websocket] [obs_module_unload] Shutting down...
+14:32:13.314: Tried to call obs_frontend_remove_event_callback with no callbacks!
+14:32:13.314: [obs-websocket] [obs_module_unload] Finished shutting down.
+14:32:13.318: [Scripting] Total detached callbacks: 0
+14:32:13.318: Freeing OBS context data
+14:32:13.330: == Profiler Results =============================
+14:32:13.330: run_program_init: 1171.71 ms
+14:32:13.330:  ┣OBSApp::AppInit: 24.693 ms
+14:32:13.330:  ┃ ┗OBSApp::InitLocale: 4.087 ms
+14:32:13.330:  ┗OBSApp::OBSInit: 1123.47 ms
+14:32:13.330:    ┣obs_startup: 1.989 ms
+14:32:13.330:    ┗OBSBasic::OBSInit: 1065.95 ms
+14:32:13.330:      ┣OBSBasic::InitBasicConfig: 1.522 ms
+14:32:13.330:      ┣OBSBasic::ResetAudio: 0.236 ms
+14:32:13.330:      ┣OBSBasic::ResetVideo: 156.575 ms
+14:32:13.330:      ┃ ┗obs_init_graphics: 151.495 ms
+14:32:13.330:      ┃   ┗shader compilation: 105.591 ms
+14:32:13.330:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+14:32:13.330:      ┣OBSBasic::InitHotkeys: 0.025 ms
+14:32:13.330:      ┣obs_load_all_modules2: 754.521 ms
+14:32:13.330:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+14:32:13.330:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+14:32:13.330:      ┃ ┣obs_init_module(decklink.so): 0.043 ms
+14:32:13.330:      ┃ ┣obs_init_module(frontend-tools.so): 58.722 ms
+14:32:13.330:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+14:32:13.330:      ┃ ┣obs_init_module(linux-alsa.so): 0 ms
+14:32:13.330:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+14:32:13.330:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+14:32:13.330:      ┃ ┣obs_init_module(linux-pipewire.so): 8.58 ms
+14:32:13.330:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+14:32:13.330:      ┃ ┣obs_init_module(linux-v4l2.so): 2.887 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-ffmpeg.so): 5.836 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-filters.so): 0.01 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-nvenc.so): 586.248 ms
+14:32:13.330:      ┃ ┃ ┗nvenc_check: 586.238 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-qsv11.so): 8.603 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-vst.so): 0.001 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-webrtc.so): 0.002 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-websocket.so): 6.297 ms
+14:32:13.330:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+14:32:13.330:      ┃ ┣obs_init_module(rtmp-services.so): 1.229 ms
+14:32:13.330:      ┃ ┗obs_init_module(text-freetype2.so): 0.007 ms
+14:32:13.330:      ┣OBSBasic::InitService: 1.512 ms
+14:32:13.330:      ┣OBSBasic::ResetOutputs: 0.133 ms
+14:32:13.330:      ┣OBSBasic::CreateHotkeys: 0.015 ms
+14:32:13.330:      ┣OBSBasic::InitPrimitives: 0.075 ms
+14:32:13.330:      ┗OBSBasic::Load: 60.585 ms
+14:32:13.330: obs_hotkey_thread(25 ms): min=0 ms, median=0.001 ms, max=0.303 ms, 99th percentile=0.002 ms, 100% below 25 ms
+14:32:13.330: audio_thread(Audio): min=0.008 ms, median=0.096 ms, max=11.218 ms, 99th percentile=0.569 ms
+14:32:13.330: obs_graphics_thread(33.3333 ms): min=0.053 ms, median=0.634 ms, max=23.436 ms, 99th percentile=1.815 ms, 100% below 33.333 ms
+14:32:13.330:  ┣tick_sources: min=0 ms, median=0.012 ms, max=19.299 ms, 99th percentile=0.028 ms
+14:32:13.330:  ┣output_frame: min=0.038 ms, median=0.256 ms, max=21.918 ms, 99th percentile=1.162 ms
+14:32:13.330:  ┃ ┗gs_context(video->graphics): min=0.038 ms, median=0.255 ms, max=21.916 ms, 99th percentile=1.16 ms
+14:32:13.330:  ┃   ┣render_video: min=0.012 ms, median=0.109 ms, max=21.696 ms, 99th percentile=0.936 ms
+14:32:13.330:  ┃   ┃ ┗render_main_texture: min=0.01 ms, median=0.104 ms, max=21.691 ms, 99th percentile=0.929 ms
+14:32:13.330:  ┃   ┗gs_flush: min=0.024 ms, median=0.11 ms, max=0.939 ms, 99th percentile=0.308 ms
+14:32:13.330:  ┗render_displays: min=0.001 ms, median=0.254 ms, max=20.987 ms, 99th percentile=0.942 ms
+14:32:13.330: =================================================
+14:32:13.330: == Profiler Time Between Calls ==================
+14:32:13.330: obs_hotkey_thread(25 ms): min=25.008 ms, median=25.031 ms, max=27.679 ms, 99.9351% within ±2% of 25 ms (0% lower, 0.0648697% higher)
+14:32:13.330: obs_graphics_thread(33.3333 ms): min=31.276 ms, median=33.334 ms, max=35.365 ms, 99.9077% within ±2% of 33.333 ms (0.0476403% lower, 0.0446628% higher)
+14:32:13.330: =================================================
+14:32:13.337: Number of memory leaks: 0

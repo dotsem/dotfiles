@@ -1,0 +1,84 @@
+["gx_plugin_version", 1,
+  "Origin: Fender Humbucker" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 3000.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 22.0
+  },
+  "Origin: Fender Strat (new)" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 4200.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 23.0
+  },
+  "Origin: Fender Strat (old)" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 4400.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 42.0
+  },
+  "Origin: Gibson Mini" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 3300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 17.0
+  },
+  "Origin: Gibson P90" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 2700.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 21.0
+  },
+  "Origin: Gibson Standard" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 3300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 17.0
+  },
+  "Origin: Gibson Super L6S" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 2800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 18.0
+  },
+  "Origin: Squier Strat" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 2900.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 18.0
+  },
+  "S to H" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 4400.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 3300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.5": 32.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 42.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 16.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.10": 20.0
+  },
+  "Destination: Fender Strat (old)" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 4400.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 42.0
+  },
+  "Destination: Fender Strat (new)" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 4200.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 23.0
+  },
+  "Destination: Fender Humbucker" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 3000.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 22.0
+  },
+  "Destination: Gibson Mini" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 3300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 17.0
+  },
+  "Destination: Gibson P90" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 2700.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 21.0
+  },
+  "Destination: Gibson Standard" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 3300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 17.0
+  },
+  "Destination: Gibson Super L6S" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 2800.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 18.0
+  },
+  "Destination: Squier Strat" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 2900.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 18.0
+  },
+  "H to S" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.6": 3300.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.8": 4400.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.5": 32.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.11": 0.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.7": 16.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.9": 42.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23CoilCrafter.10": 20.0
+  }
+]

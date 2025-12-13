@@ -1,0 +1,39 @@
+{
+  "monitors": [
+    {
+      "name": "eDP-1",
+      "enabled": true,
+      "resolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "refreshRate": 60.01,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "mirror": null,
+      "isPrimary": true
+    },
+    {
+      "name": "HDMI-A-1",
+      "enabled": true,
+      "resolution": {
+        "width": 3840,
+        "height": 2160
+      },
+      "refreshRate": 30.0,
+      "position": {
+        "x": 1920,
+        "y": 0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "mirror": "eDP-1",
+      "isPrimary": false
+    }
+  ],
+  "lastModified": "2025-10-23T09:03:08.108833"
+}

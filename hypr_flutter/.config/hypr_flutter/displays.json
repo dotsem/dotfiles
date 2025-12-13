@@ -1,0 +1,75 @@
+{
+  "layouts": [
+    {
+      "id": "di_jank_monitor",
+      "label": "DI jank monitor",
+      "updatedAt": "2025-10-10T16:23:37.374358",
+      "monitors": [
+        {
+          "name": "eDP-1",
+          "description": "Chimei Innolux Corporation 0x15E7",
+          "width": 1920,
+          "height": 1080,
+          "refreshRate": 60.008,
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "enabled": true,
+          "isPrimary": true,
+          "isMirror": true,
+          "mirrorSource": "none"
+        },
+        {
+          "name": "HDMI-A-1",
+          "description": "RGT 0x1352 0x01010101",
+          "width": 1024,
+          "height": 768,
+          "refreshRate": 60.004,
+          "x": 495,
+          "y": -770,
+          "scale": 1.0,
+          "enabled": true,
+          "isPrimary": false,
+          "isMirror": true,
+          "mirrorSource": "none"
+        }
+      ]
+    },
+    {
+      "id": "_live_layout",
+      "label": "Live layout",
+      "updatedAt": "2025-10-10T16:23:43.075852",
+      "monitors": [
+        {
+          "name": "eDP-1",
+          "description": "Chimei Innolux Corporation 0x15E7",
+          "width": 1920,
+          "height": 1080,
+          "refreshRate": 60.008,
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "enabled": true,
+          "isPrimary": true,
+          "isMirror": true,
+          "mirrorSource": "none"
+        },
+        {
+          "name": "HDMI-A-1",
+          "description": "RGT 0x1352 0x01010101",
+          "width": 1024,
+          "height": 768,
+          "refreshRate": 60.004,
+          "x": 495,
+          "y": -770,
+          "scale": 1.0,
+          "enabled": true,
+          "isPrimary": false,
+          "isMirror": true,
+          "mirrorSource": "none"
+        }
+      ]
+    }
+  ],
+  "lastAppliedLayoutId": "_live_layout"
+}

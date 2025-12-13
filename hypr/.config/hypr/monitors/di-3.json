@@ -1,0 +1,25 @@
+{
+  "layout_name": "di-3",
+  "monitors": [
+    {
+      "name": "eDP-1",
+      "serial": "UNKNOWN_0",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 1080,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "HDMI-A-1",
+      "serial": "UNKNOWN_1",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
+  ]
+}

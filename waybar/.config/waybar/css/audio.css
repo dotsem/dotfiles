@@ -1,0 +1,32 @@
+#pulseaudio-slider, #pulseaudio {
+    background-color: rgba(32, 41, 31, 0.486);
+    border-radius: 0;
+    padding: 0 8px;
+}
+
+#pulseaudio {
+
+    min-width: 4em;
+}
+
+
+
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+#pulseaudio-slider trough {
+    min-height: 10px;
+    min-width: 80px;
+    border-radius: 5px;
+    background-color: black;
+}
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: green;
+}

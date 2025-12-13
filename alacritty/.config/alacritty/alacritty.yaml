@@ -1,0 +1,29 @@
+
+env:
+  TERM: alacritty
+
+shell:
+  program: /sbin/zsh
+  args:
+    - --login
+    - -c
+    - "exec zsh" 
+
+font:
+  normal:
+    family: "MesloLGS NF"
+    style: Regular
+  size: 12.0
+  offset:
+    x: 0
+    y: 1 
+  glyph_offset:
+    x: 0
+    y: 1
+  line_height: 1.1 
+window:
+  dynamic_padding: true
+  dimensions:
+    columns: 120
+    lines: 30
+  resize_increments: 1 

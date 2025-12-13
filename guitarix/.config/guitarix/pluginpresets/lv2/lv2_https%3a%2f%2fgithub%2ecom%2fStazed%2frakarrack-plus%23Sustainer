@@ -1,0 +1,14 @@
+["gx_plugin_version", 1,
+  "Extreme Sustain" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23Sustainer.5": 16.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23Sustainer.6": 127.0
+  },
+  "Moderate Sustain" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23Sustainer.5": 79.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23Sustainer.6": 54.0
+  },
+  "Mild Sustain" {
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23Sustainer.5": 120.0
+    "lv2_https%3a%2f%2fgithub%2ecom%2fStazed%2frakarrack-plus%23Sustainer.6": 15.0
+  }
+]

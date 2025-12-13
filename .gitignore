@@ -1,0 +1,17 @@
+/logs
+
+# General
+*.bak
+__pycache__/
+*.pyc
+*.swp
+
+# OBS Studio
+obs-studio/logs/
+obs-studio/profiler_data/
+obs-studio/basic/scenes/Untitled*
+obs-studio/basic/profiles/Untitled/
+
+# TuxGuitar
+tuxguitar/cache/
+tuxguitar/config/history.properties

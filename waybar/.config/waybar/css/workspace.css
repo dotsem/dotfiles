@@ -1,0 +1,35 @@
+#workspaces {
+    padding: 0 6px;
+    background-color: rgba(32, 41, 31, 0.486);
+}
+
+#workspaces button {
+    padding: 2px 6px;
+    margin: 6px 1px;
+    border-radius: 8px;
+}
+
+#workspaces button:not(.empty) {
+    background-color: rgba(255, 145, 0, 0.781);
+}
+
+#workspaces button.visible {
+    background-color: rgba(123, 194, 17, 0.336);
+    border-bottom: 4px solid rgba(123, 194, 17, 0.336);
+    margin-bottom: 4px;
+    margin-top: 0px;
+    color: white;
+}
+
+#workspaces button.active {
+    background-color: rgb(123, 194, 17);
+    border-bottom: 4px solid rgb(123, 194, 17);
+    margin-bottom: 4px;
+    margin-top: 0px;
+    color: black;
+}
+
+#workspaces button.urgent {
+    background-color: red;
+    color: black;
+}

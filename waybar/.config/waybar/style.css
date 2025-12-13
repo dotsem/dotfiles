@@ -1,0 +1,91 @@
+/* ~/.config/waybar/style.css */
+
+* {
+    border: none;
+    border-radius: 8px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+@import url("css/workspace.css");
+@import url("css/music.css");
+@import url("css/audio.css");
+
+.monitor {
+    margin: 0 5px;
+}
+
+.monitor.active {
+    border-bottom: 2px solid #5294e2;
+}
+
+
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Other modules */
+#window {
+    margin: 0 4px;
+    padding: 0 8px;
+    background-color: rgba(32, 41, 31, 0.486);
+}
+
+#waybar.empty #window {
+    background-color: transparent;
+}
+
+#clock {
+    background-color: rgba(32, 41, 31, 0.486);
+    border-radius: 0;
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+#network {
+    padding: 0 8px;
+    background-color: rgba(32, 41, 31, 0.486);
+    border-radius: 8px 0 0 8px;
+}
+
+#battery {
+    background-color: rgba(32, 41, 31, 0.486);
+    padding: 0 8px;
+    border-radius: 0;
+}
+
+#battery.charging {
+    color: #26A65B;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #ffbe61;
+    color: black;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: white;
+    animation: blink 0.5s linear infinite alternate;
+}
+
+#tray {
+    border-radius: 0 8px 8px 0 ;
+    padding: 0 8px;
+    background-color: rgba(32, 41, 31, 0.486);
+}
+
+#tray > .needs-attention {
+    background-color: #eb4d4b;
+}
+

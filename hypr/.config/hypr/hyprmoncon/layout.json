@@ -1,0 +1,122 @@
+{
+  "kot": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 3840,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    },
+    {
+      "name": "DP-3",
+      "monitor": "ser:3CQ1170C5P",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 0,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "DP-4",
+      "monitor": "ser:3CQ117077P",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
+  ],
+  "standalone": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": true
+    }
+  ],
+  "kot alt": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 1080,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "HDMI-A-1",
+      "monitor": "ser:3CQ117077P",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
+  ],
+  "slaapkamer": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 1080,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "HDMI-A-1",
+      "monitor": "ser:922RN18RAGRS",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
+  ],
+  "home": [
+    {
+      "name": "DP-1",
+      "monitor": "hsh:a860acf900a4c277499da4cc8207e9de359ae6ce40c3fbae0aeedfbc6f71ead7",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 1080,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "HDMI-A-1",
+      "monitor": "hsh:3815b902f7cae1b77fc3528d12ab5711e5bc78be1265b4f11478a1efd1b31b7d",
+      "width": 1920,
+      "height": 1080,
+      "x": 1080,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    },
+    {
+      "name": "DP-3",
+      "monitor": "hsh:da249ef12d716290e3e06946695c6349ef24259c530854d662481b37e68c3fc1",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 1080,
+      "scale": 1,
+      "primary": false
+    }
+  ]
+}
