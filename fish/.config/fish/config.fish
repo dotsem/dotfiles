@@ -13,6 +13,7 @@ set -gx RUSTC_WRAPPER sccache
 fish_add_path ~/.local/bin
 fish_add_path ~/go/bin
 fish_add_path ~/flutter/bin
+fish_add_path ~/.cargo/bin
 
 # shell config
 if status is-interactive
@@ -91,3 +92,10 @@ if status is-interactive
     end
 
 end
+
+# pnpm
+set -gx PNPM_HOME "/home/sem/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
