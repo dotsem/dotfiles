@@ -62,7 +62,7 @@ if status is-interactive
 
     # git
     abbr --add gs 'git status'
-    abbr --add stash 'git stash -U'
+    abbr --add stash 'git stash -u'
 
     # clipboard
     abbr --add clipboard 'xsel -ib'
