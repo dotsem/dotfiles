@@ -78,7 +78,7 @@ if status is-interactive
 
     function cl
         cd $argv[1]
-        ls --color=auto
+        eza --icons --group-directories-first
     end
 
     function sail
