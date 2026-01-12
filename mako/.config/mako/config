@@ -1,0 +1,49 @@
+
+# Font
+font=JetBrainsMono Nerd Font 10
+
+# Positioning
+anchor=top-right
+margin=10
+padding=10
+
+# Size
+width=360
+height=120
+max-visible=5
+
+# Appearance
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+border-size=2
+border-radius=10
+
+# Progress bar
+progress-color=over #313244
+
+# Icons
+icons=1
+max-icon-size=48
+
+# Behavior
+default-timeout=5000
+ignore-timeout=0
+
+# Grouping
+group-by=app-name
+
+# Urgency-specific settings
+[urgency=low]
+border-color=#6c7086
+default-timeout=3000
+
+[urgency=normal]
+border-color=#89b4fa
+default-timeout=5000
+
+[urgency=critical]
+border-color=#f38ba8
+background-color=#1e1e2e
+text-color=#f38ba8
+default-timeout=0

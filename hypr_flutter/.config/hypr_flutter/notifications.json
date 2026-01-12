@@ -15,10 +15,9 @@
       "high",
       "critical"
     ],
-    "showReadNotifications": true,
+    "showReadNotifications": false,
     "maxAge": 0,
     "blockedApps": []
   },
-  "silentMode": false,
-  "notifications": []
+  "silentMode": false
 }
