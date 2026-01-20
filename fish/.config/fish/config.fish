@@ -57,7 +57,7 @@ if status is-interactive
 
     # better cat
     if type -q bat
-        abbr --add cat 'bat'
+        abbr --add cat bat
     end
 
     # git
@@ -68,7 +68,7 @@ if status is-interactive
     abbr --add clipboard 'xsel -ib'
 
     # pnpm
-    abbr --add pp 'pnpm'
+    abbr --add pp pnpm
 
     # shutdown now
     abbr --add nuke 'shutdown now'
@@ -81,13 +81,28 @@ if status is-interactive
         eza --icons --group-directories-first
     end
 
+    function cdf
+        cd ~/.dotfiles/$argv[1]/.config/$argv[1]
+    end
+
     function sail
         if test -f sail
             sh sail $argv
-        elseif test -f vendor/bin/sail
+            elseif test -f vendor/bin/sail
             sh vendor/bin/sail $argv
         else
             echo "No sail script found."
+        end
+    end
+
+    # python venv
+    function auto_venv --on-variable PWD
+        if test -f .venv/bin/activate.fish
+            if not set -q VIRTUAL_ENV
+                source .venv/bin/activate.fish
+            end
+        else if set -q VIRTUAL_ENV
+            deactivate
         end
     end
 
@@ -96,6 +111,6 @@ end
 # pnpm
 set -gx PNPM_HOME "/home/sem/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end

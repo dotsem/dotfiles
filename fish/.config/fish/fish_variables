@@ -6,7 +6,6 @@ SETUVAR _fisher_nickeb96_2F_puffer_2D_fish_files:\x7e/\x2econfig/fish/functions/
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1enickeb96/puffer\x2dfish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_greeting:
-SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_prompt:\U0001f41f\x20
 SETUVAR fish_user_paths:/home/sem/\x2ecargo/bin\x1e/usr/lib/jvm/java\x2d21\x2dopenjdk/bin\x1e/home/sem/\x2elocal/share/flutter/bin\x1e/home/sem/Android/Sdk/emulator\x1e/home/sem/Android/Sdk/platform\x2dtools\x1e/home/sem/Android/Sdk/cmdline\x2dtools/latest/bin\x1e/home/sem/flutter/bin\x1e/home/sem/go/bin\x1e/home/sem/\x2elocal/bin
 SETUVAR pure_begin_prompt_with_current_directory:true
