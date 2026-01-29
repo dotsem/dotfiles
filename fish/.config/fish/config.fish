@@ -86,10 +86,9 @@ if status is-interactive
     end
 
     function sail
-        if test -f sail
-            sh sail $argv
-            elseif test -f vendor/bin/sail
-            sh vendor/bin/sail $argv
+
+        if test -f ./vendor/bin/sail
+            sh ./vendor/bin/sail $argv
         else
             echo "No sail script found."
         end
