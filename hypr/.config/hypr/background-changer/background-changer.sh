@@ -1,24 +1,16 @@
 #!/bin/sh
 
 path="$HOME/.config/hypr/background-changer/img"
-config="$HOME/.config/hypr/hyprpaper.conf"
+current_bg_file="$HOME/.config/hypr/background-changer/current_bg"
 
 index="$1"
 
-
-# Get the image at the specified index (0-based)
 image=$(ls -1 "$path"/*.jpg "$path"/*.png "$path"/*.jpeg 2>/dev/null | sort | sed -n "$((index + 1))p")
 
 if [ -n "$image" ]; then
-    for monitor in $(hyprctl monitors -j | jq -r '.[].name'); do
-        hyprctl hyprpaper preload "$image"
-        hyprctl hyprpaper wallpaper "$monitor,$image"
-    done
-    hyprctl hyprpaper reload
+    awww img "$image" --transition-type grow --transition-pos center --transition-step 60
 
-    sed -i "s|^\$bgImg = .*|\$bgImg = $image|" "$config"
-
-
+    echo "$image" > "$current_bg_file"
 else
     notify-send "Wallpaper Error" "No image found at index $index in $path"
 fi
