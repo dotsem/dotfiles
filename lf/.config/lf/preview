@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+file="$1"
+w="$2"
+h="$3"
+x="$4"
+y="$5"
+
+mime=$(file --mime-type -Lb "$file")
+
+case "$mime" in
+  image/*)
+    ueberzugpp layer --silent <<EOF
+{"action":"add","identifier":"lf-preview","x":$x,"y":$y,"width":$w,"height":$h,"path":"$file"}
+EOF
+    ;;
+  text/*)
+    bat --color=always --style=plain "$file"
+    ;;
+  application/pdf)
+    pdftoppm "$file" -f 1 -l 1 -png /tmp/lfpdf
+    ueberzugpp layer --silent <<EOF
+{"action":"add","identifier":"lf-preview","x":$x,"y":$y,"width":$w,"height":$h,"path":"/tmp/lfpdf-1.png"}
+EOF
+    ;;
+  *)
+    file "$file"
+    ;;
+esac

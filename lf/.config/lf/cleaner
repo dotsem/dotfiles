@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+ueberzugpp layer --silent <<EOF
+{"action":"remove","identifier":"lf-preview"}
+EOF

@@ -150,5 +150,101 @@
       "scale": 1,
       "primary": false
     }
+  ],
+  "di": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 1024,
+      "y": 1080,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "DP-3",
+      "monitor": "UNKNOWN_1",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    },
+    {
+      "name": "DP-5",
+      "monitor": "UNKNOWN_2",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
+  ],
+  "di2": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 760,
+      "y": 1080,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "DP-4",
+      "monitor": "ser:F26BN14",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    },
+    {
+      "name": "DP-7",
+      "monitor": "ser:TTMDG27R0LNU",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
+  ],
+  "di3": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 1080,
+      "y": 1080,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "DP-4",
+      "monitor": "ser:F26BN14",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    },
+    {
+      "name": "DP-7",
+      "monitor": "ser:TTMDG27R0LNU",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
   ]
 }
