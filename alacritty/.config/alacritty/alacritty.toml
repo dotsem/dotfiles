@@ -1,0 +1,27 @@
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[keyboard]
+bindings = [
+   { key = "n", mods = "Control", action = "SpawnNewInstance" }
+]
