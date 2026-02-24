@@ -1,6 +1,11 @@
-spawn-at-startup "waybar"
+spawn-at-startup "quickshell"
 spawn-sh-at-startup "awww-daemon && awww restore"
 spawn-at-startup "swaync"
+
+// apps
+spawn-at-startup "spotify-launcher"
+spawn-at-startup "com.github.wwmm.easyeffects"
+spawn-at-startup "carpe_diem"
 
 input {
     keyboard {
@@ -28,7 +33,6 @@ input {
 
     warp-mouse-to-focus
 
-    workspace-auto-back-and-forth
 }
 
 output "eDP-1" {
@@ -41,8 +45,7 @@ output "eDP-1" {
 }
 
 hotkey-overlay {
-    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
-    // skip-at-startup
+    skip-at-startup
 }
 
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
@@ -53,15 +56,20 @@ binds {
 
     // opening apps
     Mod+Return              hotkey-overlay-title="Open terminal: Alacritty" repeat=false { spawn "alacritty"; }
-    Mod+X                   hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Swaylock" { spawn "swaylock"; }
+    Mod+X                   hotkey-overlay-title="Run an Application: fuzzel" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
+    Mod+V                   hotkey-overlay-title="Open clickboard" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
+    Mod+Shift+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Mod+Comma hotkey-overlay-title="Settings" {
+        spawn "dms" "ipc" "call" "settings" "focusOrToggle";
+    }
+    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
     Mod+G                   hotkey-overlay-title="Open webbrowser: Chrome" { spawn "google-chrome-stable"; }
     Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Dolphin" { spawn "Dolphin"; }
 
     // audio
     XF86AudioMute           allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
-    XF86AudioRaiseVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-    XF86AudioLowerVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
+    XF86AudioRaiseVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }
+    XF86AudioLowerVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05-"; }
     XF86AudioMicMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
 
     // brightness
@@ -82,8 +90,8 @@ binds {
     Ctrl+Print              { screenshot-screen show-pointer=false; }
     Alt+Print               { screenshot-window; }
     //? write to disk
-    Mod+I                { screenshot show-pointer=false; }
-    Mod+Shift+I          { screenshot show-pointer=false; }
+    Mod+I                   { screenshot show-pointer=false; }
+    Mod+Shift+I             { screenshot show-pointer=false; }
 
     // navigation
     Mod+T                   repeat=false hotkey-overlay-title="Toggle overview" { toggle-overview; }
@@ -93,38 +101,48 @@ binds {
     Mod+D                   { focus-column-right; }
     Mod+Shift+Q             { move-column-left; }
     Mod+Shift+D             { move-column-right; }
+    Mod+Alt+Q               { focus-column-first; }
+    Mod+Alt+D               { focus-column-last; }
+    Mod+Ctrl+Q              { move-column-to-first; }
+    Mod+Ctrl+D              { move-column-to-last; }
+
 
     Mod+Z                   { focus-workspace-up; }
     Mod+S                   { focus-workspace-down;}
-    Mod+Shift+Z             { move-window-to-workspace-up; }
-    Mod+Shift+S             { move-window-to-workspace-down; }
+    Mod+Shift+Z             { move-column-to-workspace-up; }
+    Mod+Shift+S             { move-column-to-workspace-down; }
 
     Mod+A                   { focus-monitor-left; }
     Mod+E                   { focus-monitor-right; }
-    Mod+Shift+A             { move-window-to-monitor-left; }
-    Mod+Shift+E             { move-window-to-monitor-right; }
+    Mod+Shift+A             { move-column-to-monitor-left; }
+    Mod+Shift+E             { move-column-to-monitor-right; }
+    Mod+Ctrl+A              { move-workspace-to-monitor-left; }
+    Mod+Ctrl+E              { move-workspace-to-monitor-right; }
 
     Mod+WheelScrollDown     cooldown-ms=150 { focus-column-left; }
     Mod+WheelScrollUp       cooldown-ms=150 { focus-column-right; }
 
-    Mod+1                   { focus-workspace 1; }
-    Mod+2                   { focus-workspace 2; }
-    Mod+3                   { focus-workspace 3; }
-    Mod+4                   { focus-workspace 4; }
-    Mod+5                   { focus-workspace 5; }
-    Mod+6                   { focus-workspace 6; }
-    Mod+7                   { focus-workspace 7; }
-    Mod+8                   { focus-workspace 8; }
-    Mod+9                   { focus-workspace 9; }
-    Mod+Ctrl+1              { move-window-to-workspace 1; }
-    Mod+Ctrl+2              { move-window-to-workspace 2; }
-    Mod+Ctrl+3              { move-window-to-workspace 3; }
-    Mod+Ctrl+4              { move-window-to-workspace 4; }
-    Mod+Ctrl+5              { move-window-to-workspace 5; }
-    Mod+Ctrl+6              { move-window-to-workspace 6; }
-    Mod+Ctrl+7              { move-window-to-workspace 7; }
-    Mod+Ctrl+8              { move-window-to-workspace 8; }
-    Mod+Ctrl+9              { move-window-to-workspace 9; }
+    Mod+Ampersand           { focus-workspace 1; }
+    Mod+eacute              { focus-workspace 2; }
+    Mod+quotedbl            { focus-workspace 3; }
+    Mod+apostrophe          { focus-workspace 4; }
+    Mod+parenleft           { focus-workspace 5; }
+    Mod+section             { focus-workspace 6; }
+    Mod+egrave              { focus-workspace 7; }
+    Mod+exclam              { focus-workspace 8; }
+    Mod+ccedilla            { focus-workspace 9; }
+    Mod+agrave              { focus-workspace "music"; }
+    Mod+parenright          { focus-workspace "social"; }
+    Mod+minus               { focus-workspace "plan"; }
+    Mod+Ctrl+Ampersand      { move-window-to-workspace 1; }
+    Mod+Ctrl+eacute         { move-window-to-workspace 2; }
+    Mod+Ctrl+quotedbl       { move-window-to-workspace 3; }
+    Mod+Ctrl+apostrophe     { move-window-to-workspace 4; }
+    Mod+Ctrl+parenleft      { move-window-to-workspace 5; }
+    Mod+Ctrl+section        { move-window-to-workspace 6; }
+    Mod+Ctrl+egrave         { move-window-to-workspace 7; }
+    Mod+Ctrl+exclam         { move-window-to-workspace 8; }
+    Mod+Ctrl+ccedilla       { move-window-to-workspace 9; }
 
     Mod+F                   { maximize-column; }
     Mod+Ctrl+F              { fullscreen-window; }
@@ -142,7 +160,17 @@ binds {
 window-rule {
     geometry-corner-radius 4
     clip-to-geometry true
+}
 
+window-rule {
+    match app-id="Alacritty"
+    opacity 0.8
+}
+
+window-rule {
+    match app-id="code"
+    opacity 0.90
+    draw-border-with-background false
 }
 
 layout {
@@ -176,3 +204,29 @@ layer-rule {
 }
 
 prefer-no-csd
+
+workspace "plan" {
+
+}
+
+window-rule {
+    match at-startup=true app-id="carpe_diem$"
+    open-maximized true
+
+}
+
+
+workspace "music" {
+
+}
+
+window-rule {
+    match at-startup=true app-id="easyeffects$"
+    match at-startup=true app-id="spotify"
+    open-on-workspace "music"
+}
+
+workspace "social" {
+
+}
+include "dms/outputs.kdl"
