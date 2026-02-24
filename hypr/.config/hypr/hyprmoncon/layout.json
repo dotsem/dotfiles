@@ -12,7 +12,7 @@
     },
     {
       "name": "DP-3",
-      "monitor": "ser:3CQ1170C5P",
+      "monitor": "UNKNOWN_1",
       "width": 1920,
       "height": 1080,
       "x": 1920,
@@ -22,7 +22,7 @@
     },
     {
       "name": "DP-4",
-      "monitor": "ser:3CQ117077P",
+      "monitor": "ser:3CQ1170C5P",
       "width": 1920,
       "height": 1080,
       "x": 0,
@@ -239,6 +239,38 @@
     {
       "name": "DP-7",
       "monitor": "ser:TTMDG27R0LNU",
+      "width": 1920,
+      "height": 1080,
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    }
+  ],
+  "fml": [
+    {
+      "name": "eDP-1",
+      "monitor": "hsh:44bb64cecc8a9a8954b2e7475511fab1003f40270b67b69444903ffd4e81d9f5",
+      "width": 1920,
+      "height": 1080,
+      "x": 3840,
+      "y": 0,
+      "scale": 1,
+      "primary": true
+    },
+    {
+      "name": "DP-4",
+      "monitor": "ser:3CQ1170C5P",
+      "width": 1920,
+      "height": 1080,
+      "x": 1920,
+      "y": 0,
+      "scale": 1,
+      "primary": false
+    },
+    {
+      "name": "DP-6",
+      "monitor": "ser:3CQ117077P",
       "width": 1920,
       "height": 1080,
       "x": 0,

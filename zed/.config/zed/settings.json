@@ -7,6 +7,24 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "buffer_font_family": "FiraCode Nerd Font",
+  "file_types": {
+    "cpp": [
+      "*.cpp"
+    ],
+    "plaintext": [
+      ".todo"
+    ]
+  },
+  "linked_edits": true,
+  "show_whitespaces": "none",
+  "indent_guides": {
+    "enabled": false
+  },
+  "soft_wrap": "none",
   "outline_panel": {
     "dock": "right"
   },
@@ -14,6 +32,7 @@
     "dock": "right"
   },
   "terminal": {
+    "font_family": "MesloLGS NF",
     "dock": "bottom"
   },
   "minimap": {
@@ -34,6 +53,6 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "One Dark Pro Max"
+    "dark": "One Dark"
   }
 }
