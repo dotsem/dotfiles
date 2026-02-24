@@ -1,0 +1,178 @@
+spawn-at-startup "waybar"
+spawn-sh-at-startup "awww-daemon && awww restore"
+spawn-at-startup "swaync"
+
+input {
+    keyboard {
+        xkb {
+            layout "be"
+            variant "oss"
+        }
+        repeat-delay 600
+        repeat-rate 25
+
+        numlock
+    }
+
+    touchpad {
+        tap
+        natural-scroll
+        accel-speed -0.1
+    }
+
+    mouse {
+        accel-speed -0.9
+    }
+
+    focus-follows-mouse max-scroll-amount="90%"
+
+    warp-mouse-to-focus
+
+    workspace-auto-back-and-forth
+}
+
+output "eDP-1" {
+    mode "1920x1080@60"
+    scale 1.0
+
+    hot-corners {
+        off
+    }
+}
+
+hotkey-overlay {
+    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
+    // skip-at-startup
+}
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+
+binds {
+    Mod+Shift+H         { show-hotkey-overlay; }
+
+    // opening apps
+    Mod+Return              hotkey-overlay-title="Open terminal: Alacritty" repeat=false { spawn "alacritty"; }
+    Mod+X                   hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Swaylock" { spawn "swaylock"; }
+    Mod+G                   hotkey-overlay-title="Open webbrowser: Chrome" { spawn "google-chrome-stable"; }
+    Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Dolphin" { spawn "Dolphin"; }
+
+    // audio
+    XF86AudioMute           allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
+    XF86AudioRaiseVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
+    XF86AudioLowerVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
+    XF86AudioMicMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
+
+    // brightness
+    XF86MonBrightnessUp     allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
+    XF86MonBrightnessDown   allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
+
+    // media
+    XF86AudioPlay           allow-when-locked=true { spawn-sh "playerctl play-pause"; }
+    XF86AudioStop           allow-when-locked=true { spawn-sh "playerctl stop"; }
+    XF86AudioPrev           allow-when-locked=true { spawn-sh "playerctl previous"; }
+    XF86AudioNext           allow-when-locked=true { spawn-sh "playerctl next"; }
+    Mod+K                   allow-when-locked=true hotkey-overlay-title="Play/pause music" { spawn-sh "playerctl play-pause"; }
+    Mod+Ctrl+K              allow-when-locked=true hotkey-overlay-title="Previous Song" { spawn-sh "playerctl previous"; }
+    Mod+Shift+K             allow-when-locked=true hotkey-overlay-title="Next Song" { spawn-sh "playerctl next"; }
+
+    // screenshot
+    Print                   { screenshot show-pointer=false; }
+    Ctrl+Print              { screenshot-screen show-pointer=false; }
+    Alt+Print               { screenshot-window; }
+    //? write to disk
+    Mod+I                { screenshot show-pointer=false; }
+    Mod+Shift+I          { screenshot show-pointer=false; }
+
+    // navigation
+    Mod+T                   repeat=false hotkey-overlay-title="Toggle overview" { toggle-overview; }
+    Mod+Escape              repeat=false hotkey-overlay-title="Close window" { close-window; }
+
+    Mod+Q                   { focus-column-left; }
+    Mod+D                   { focus-column-right; }
+    Mod+Shift+Q             { move-column-left; }
+    Mod+Shift+D             { move-column-right; }
+
+    Mod+Z                   { focus-workspace-up; }
+    Mod+S                   { focus-workspace-down;}
+    Mod+Shift+Z             { move-window-to-workspace-up; }
+    Mod+Shift+S             { move-window-to-workspace-down; }
+
+    Mod+A                   { focus-monitor-left; }
+    Mod+E                   { focus-monitor-right; }
+    Mod+Shift+A             { move-window-to-monitor-left; }
+    Mod+Shift+E             { move-window-to-monitor-right; }
+
+    Mod+WheelScrollDown     cooldown-ms=150 { focus-column-left; }
+    Mod+WheelScrollUp       cooldown-ms=150 { focus-column-right; }
+
+    Mod+1                   { focus-workspace 1; }
+    Mod+2                   { focus-workspace 2; }
+    Mod+3                   { focus-workspace 3; }
+    Mod+4                   { focus-workspace 4; }
+    Mod+5                   { focus-workspace 5; }
+    Mod+6                   { focus-workspace 6; }
+    Mod+7                   { focus-workspace 7; }
+    Mod+8                   { focus-workspace 8; }
+    Mod+9                   { focus-workspace 9; }
+    Mod+Ctrl+1              { move-window-to-workspace 1; }
+    Mod+Ctrl+2              { move-window-to-workspace 2; }
+    Mod+Ctrl+3              { move-window-to-workspace 3; }
+    Mod+Ctrl+4              { move-window-to-workspace 4; }
+    Mod+Ctrl+5              { move-window-to-workspace 5; }
+    Mod+Ctrl+6              { move-window-to-workspace 6; }
+    Mod+Ctrl+7              { move-window-to-workspace 7; }
+    Mod+Ctrl+8              { move-window-to-workspace 8; }
+    Mod+Ctrl+9              { move-window-to-workspace 9; }
+
+    Mod+F                   { maximize-column; }
+    Mod+Ctrl+F              { fullscreen-window; }
+    Mod+Shift+F             { expand-column-to-available-width; }
+
+    Mod+R                   { switch-preset-column-width; }
+
+
+    Mod+Alt+F4              { quit; }
+    Ctrl+Alt+Delete         { quit; }
+
+
+}
+
+window-rule {
+    geometry-corner-radius 4
+    clip-to-geometry true
+
+}
+
+layout {
+    gaps 8
+    center-focused-column "never"
+    background-color "transparent"
+
+
+
+    preset-column-widths { 
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+
+    default-column-width {}
+
+    focus-ring {
+        width 4
+        active-color "#ff6a00ff"
+        inactive-color "#505050"
+
+    }
+}
+
+
+
+layer-rule {
+    match namespace="awww-daemon"
+    place-within-backdrop true
+}
+
+prefer-no-csd
