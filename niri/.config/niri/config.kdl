@@ -147,6 +147,10 @@ binds {
     Mod+F                   { maximize-column; }
     Mod+Ctrl+F              { fullscreen-window; }
     Mod+Shift+F             { expand-column-to-available-width; }
+    Mod+Shift+V             { toggle-window-floating; }
+
+    Mod+W                   { consume-window-into-column; }
+    Mod+Shift+W             { expel-window-from-column; }
 
     Mod+R                   { switch-preset-column-width; }
 
