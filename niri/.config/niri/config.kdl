@@ -149,8 +149,8 @@ binds {
     Mod+Shift+F             { expand-column-to-available-width; }
     Mod+Shift+V             { toggle-window-floating; }
 
-    Mod+W                   { consume-window-into-column; }
-    Mod+Shift+W             { expel-window-from-column; }
+    Mod+W                   { consume-or-expel-window-left; }
+    Mod+Shift+W             { consume-or-expel-window-right; }
 
     Mod+R                   { switch-preset-column-width; }
 
@@ -173,6 +173,7 @@ window-rule {
 
 window-rule {
     match app-id="code"
+    match app-id="antigravity"
     opacity 0.90
     draw-border-with-background false
 }
