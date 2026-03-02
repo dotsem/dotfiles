@@ -1,5 +1,4 @@
 spawn-at-startup "quickshell"
-spawn-sh-at-startup "awww-daemon && awww restore"
 spawn-at-startup "swaync"
 
 // apps
@@ -116,6 +115,8 @@ binds {
     Mod+E                   { focus-monitor-right; }
     Mod+Shift+A             { move-column-to-monitor-left; }
     Mod+Shift+E             { move-column-to-monitor-right; }
+    Mod+Ctrl+Z              { move-workspace-up; }
+    Mod+Ctrl+S              { move-workspace-down; }
     Mod+Ctrl+A              { move-workspace-to-monitor-left; }
     Mod+Ctrl+E              { move-workspace-to-monitor-right; }
 
@@ -205,6 +206,7 @@ layout {
 
 layer-rule {
     match namespace="awww-daemon"
+    match namespace="quickshell"
     place-within-backdrop true
 }
 
