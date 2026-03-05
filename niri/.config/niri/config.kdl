@@ -155,6 +155,8 @@ binds {
 
     Mod+R                   { switch-preset-column-width; }
 
+    Mod+C                   { center-column; }
+
 
     Mod+Alt+F4              { quit; }
     Ctrl+Alt+Delete         { quit; }
