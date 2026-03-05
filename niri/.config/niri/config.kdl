@@ -61,7 +61,8 @@ binds {
     Mod+Comma hotkey-overlay-title="Settings" {
         spawn "dms" "ipc" "call" "settings" "focusOrToggle";
     }
-    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
+    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "dms" "ipc" "call" "lock" "lock"; }
+    Mod+Ctrl+L              allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
     Mod+G                   hotkey-overlay-title="Open webbrowser: Chrome" { spawn "google-chrome-stable"; }
     Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Thunar" { spawn "thunar"; }
 
