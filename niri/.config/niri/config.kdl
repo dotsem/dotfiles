@@ -57,11 +57,11 @@ binds {
     Mod+Return              hotkey-overlay-title="Open terminal: Alacritty" repeat=false { spawn "alacritty"; }
     Mod+X                   hotkey-overlay-title="Run an Application: fuzzel" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Mod+V                   hotkey-overlay-title="Open clickboard" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
-    Mod+Shift+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
-    Mod+Comma hotkey-overlay-title="Settings" {
-        spawn "dms" "ipc" "call" "settings" "focusOrToggle";
-    }
+    Mod+Shift+X             hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Mod+Comma               hotkey-overlay-title="Settings" { spawn "dms" "ipc" "call" "settings" "focusOrToggle"; }
     Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "dms" "ipc" "call" "lock" "lock"; }
+    Mod+N                   hotkey-overlay-title="notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
+    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "dms" "ipc" "call" "color-picker" "toggle"; }
     Mod+Ctrl+L              allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
     Mod+G                   hotkey-overlay-title="Open webbrowser: Chrome" { spawn "google-chrome-stable"; }
     Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Thunar" { spawn "thunar"; }
