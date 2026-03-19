@@ -28,13 +28,14 @@ input {
         accel-speed -0.9
     }
 
-    focus-follows-mouse max-scroll-amount="90%"
+    focus-follows-mouse max-scroll-amount="50%"
 
     warp-mouse-to-focus
 
+    workspace-auto-back-and-forth
 }
 
-output "eDP-1" {
+output "" {
     mode "1920x1080@60"
     scale 1.0
 
