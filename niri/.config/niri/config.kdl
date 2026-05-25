@@ -6,6 +6,10 @@ spawn-at-startup "spotify-launcher"
 spawn-at-startup "com.github.wwmm.easyeffects"
 spawn-at-startup "carpe_diem"
 
+spawn-at-startup "sh" "-c" "while ! busctl --user status org.gnome.Mutter.ScreenCast >/dev/null 2>&1; do sleep 0.2; done; systemctl --user restart xdg-desktop-portal-gnome"
+
+include "shader.kdl"
+
 input {
     keyboard {
         xkb {
@@ -181,7 +185,7 @@ window-rule {
 window-rule {
     match app-id="code"
     match app-id="antigravity"
-    opacity 0.90
+    opacity 0.95
     draw-border-with-background false
 }
 
