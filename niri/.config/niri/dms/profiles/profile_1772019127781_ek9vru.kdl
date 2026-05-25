@@ -24,14 +24,14 @@ output "Dell Inc. DELL P2225H F26BN14" {
     position x=1920 y=0
 }
 
-output "Philips Consumer Electronics Company 65BDL3511Q 0x01010101" {
-    mode "1920x1080@60.000"
+output "Seiko Epson Corporation EPSON PJ 0x01010101" {
+    mode "1920x1080@30.000"
     scale 1
     position x=1920 y=0
 }
 
-output "Seiko Epson Corporation EPSON PJ 0x01010101" {
-    mode "1920x1080@30.000"
+output "Philips Consumer Electronics Company 65BDL3511Q 0x01010101" {
+    mode "1920x1080@60.000"
     scale 1
     position x=1920 y=0
 }
@@ -46,5 +46,11 @@ output "Chimei Innolux Corporation 0x15E7 Unknown" {
     mode "1920x1080@60.008"
     scale 1
     position x=3840 y=0
+}
+
+output "PNP(LTM) RallyBar Mini 0x88888800" {
+    mode "1920x1080@60.000"
+    scale 1
+    position x=5760 y=0
 }
 
