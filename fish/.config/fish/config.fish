@@ -73,6 +73,10 @@ if status is-interactive
     # shutdown now
     abbr --add nuke 'shutdown now'
 
+    # editors
+    abbr --add zed zeditor
+    abbr --add ag antigravity
+
     # functions
     # ---------
 
