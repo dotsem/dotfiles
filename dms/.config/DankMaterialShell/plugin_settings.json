@@ -1,0 +1,49 @@
+{
+  "dankBatteryAlerts": {
+    "enabled": true
+  },
+  "dockerManager": {
+    "enabled": true,
+    "groupByCompose": true
+  },
+  "commandRunner": {
+    "enabled": true,
+    "terminal": "alacritty",
+    "history": [
+      "tusshi",
+      "antigravity ~/nix-config",
+      "carpe_diem",
+      "dolphin",
+      "htop",
+      "ls"
+    ]
+  },
+  "displayMirror": {
+    "enabled": true,
+    "mirrorFromCurrentScreen": true,
+    "autoRefresh": false,
+    "refreshInterval": "30"
+  },
+  "wallpaperCarousel": {
+    "enabled": true
+  },
+  "emojiLauncher": {
+    "enabled": true
+  },
+  "screenRecorder": {
+    "enabled": false,
+    "fps": "30",
+    "quality": "high",
+    "recordAudio": false
+  },
+  "calculator": {
+    "enabled": false,
+    "trigger": "="
+  },
+  "sshConnections": {
+    "enabled": true,
+    "history": [
+      "192.168.200.4"
+    ]
+  }
+}
