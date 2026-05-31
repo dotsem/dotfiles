@@ -25,3 +25,8 @@ style = "Regular"
 bindings = [
    { key = "n", mods = "Control", action = "SpawnNewInstance" }
 ]
+
+[general]
+import = [
+    "./dank-theme.toml"
+]
