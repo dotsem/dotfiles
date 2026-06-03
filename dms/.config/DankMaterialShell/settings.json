@@ -769,7 +769,8 @@
       "shadowColorMode": "text",
       "shadowCustomColor": "#000000",
       "widgetPadding": 1,
-      "iconScale": 1.2
+      "iconScale": 1.2,
+      "clickThrough": true
     }
   ],
   "desktopClockEnabled": false,

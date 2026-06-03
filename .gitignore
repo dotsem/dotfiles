@@ -7,10 +7,10 @@ __pycache__/
 *.swp
 
 # OBS Studio
-obs-studio/logs/
-obs-studio/profiler_data/
-obs-studio/basic/scenes/Untitled*
-obs-studio/basic/profiles/Untitled/
+obs-studio/.config/obs-studio/logs/
+obs-studio/.config/obs-studio/profiler_data/
+obs-studio/.config/obs-studio/basic/scenes/Untitled*
+obs-studio/.config/obs-studio/basic/profiles/Untitled/
 
 # TuxGuitar
 tuxguitar/cache/
