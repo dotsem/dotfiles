@@ -55,11 +55,6 @@ if status is-interactive
         abbr --add lt 'eza -aT --icons --group-directories-first' # Tree view
     end
 
-    # better cat
-    if type -q bat
-        abbr --add cat bat
-    end
-
     # git
     abbr --add gs 'git status'
     abbr --add stash 'git stash -u'
