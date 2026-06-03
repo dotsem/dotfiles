@@ -601,10 +601,6 @@
           "showMicPercent": false,
           "showBatteryIcon": false,
           "showPrinterIcon": false
-        },
-        {
-          "id": "githubNotifier",
-          "enabled": true
         }
       ],
       "spacing": 4,
