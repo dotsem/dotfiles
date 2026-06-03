@@ -45,5 +45,20 @@
     "history": [
       "192.168.200.4"
     ]
+  },
+  "dankAudioVisualizer": {
+    "enabled": false
+  },
+  "simpleAudioControl": {
+    "enabled": true
+  },
+  "githubNotifier": {
+    "enabled": false
+  },
+  "mediaControlsPlus": {
+    "enabled": true
+  },
+  "tailscale": {
+    "enabled": true
   }
 }
