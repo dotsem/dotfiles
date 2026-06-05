@@ -220,6 +220,14 @@ layer-rule {
     place-within-backdrop true
 }
 
+// Block out sensitive components from screencasts
+layer-rule {
+    match namespace="Bitwarden"
+    match namespace="^dms:clipboard$"
+
+    block-out-from "screencast"
+}
+
 prefer-no-csd
 
 workspace "plan" {
