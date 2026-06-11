@@ -1,4 +1,4 @@
-spawn-at-startup "quickshell"
+spawn-at-startup "/home/sem/prog/c++/fork-noctalia/build-release/noctalia"
 spawn-at-startup "swaync"
 
 // apps
@@ -217,6 +217,7 @@ layout {
 layer-rule {
     match namespace="awww-daemon"
     match namespace="quickshell"
+    match namespace="noctalia-wallpaper"
     place-within-backdrop true
 }
 

@@ -20,8 +20,8 @@
   "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
-  "popupTransparency": 1,
-  "dockTransparency": 0.3,
+  "popupTransparency": 0.45,
+  "dockTransparency": 0.4,
   "widgetBackgroundColor": "sth",
   "widgetColorMode": "default",
   "controlCenterTileColorMode": "primaryContainer",
@@ -196,7 +196,7 @@
   "workspaceAppIconSizeOffset": 2,
   "groupWorkspaceApps": true,
   "workspaceFollowFocus": false,
-  "showOccupiedWorkspacesOnly": true,
+  "showOccupiedWorkspacesOnly": false,
   "reverseScrolling": false,
   "dwlShowAllTags": false,
   "workspaceColorMode": "default",
@@ -270,7 +270,7 @@
   "dankLauncherV2BorderEnabled": false,
   "dankLauncherV2BorderThickness": 2,
   "dankLauncherV2BorderColor": "primary",
-  "dankLauncherV2ShowFooter": true,
+  "dankLauncherV2ShowFooter": false,
   "dankLauncherV2UnloadOnClose": false,
   "useAutoLocation": true,
   "weatherEnabled": true,
@@ -343,6 +343,7 @@
   "audioInputDevicePins": {},
   "audioOutputDevicePins": {
     "preferredOutput": [
+      "bluez_output.88_92_CC_9D_46_AD.1",
       "bluez_output.00_42_79_BF_9C_F6.1",
       "alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__Headphones__sink"
     ]
@@ -840,6 +841,95 @@
   "desktopWidgetGridSettings": {},
   "desktopWidgetInstances": [
     {
+      "id": "dw_1780501893633_0ejnzvht6",
+      "widgetType": "mediaPlayer",
+      "name": "Media Player",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "showOnOverview": false,
+        "showOnOverviewOnly": false,
+        "showOnOverlay": false,
+        "clickThrough": false,
+        "backgroundOpacity": 43
+      },
+      "positions": {
+        "0x15E7": {
+          "width": 346.3203125,
+          "height": 193.57421875,
+          "x": 1564.05078125,
+          "y": 880.0234375
+        },
+        "HP E243m-1": {
+          "width": 320,
+          "height": 200,
+          "x": 800,
+          "y": 440
+        },
+        "HP E243m-0": {
+          "width": 320,
+          "height": 200,
+          "x": 800,
+          "y": 440
+        },
+        "_synced": {
+          "x": 0.027242024739583332,
+          "y": 0.04543909143518519,
+          "width": 433.26171875,
+          "height": 160
+        }
+      }
+    },
+    {
+      "id": "dw_1780501913699_t0dfiqurp",
+      "widgetType": "cavaVisualizer",
+      "name": "Cava Visualizer",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "vizMode": "curve-filled",
+        "orientation": "top",
+        "syncPositionAcrossScreens": true,
+        "showOnOverlay": true,
+        "channels": "mono",
+        "bgOpacity": 0,
+        "opacity": 13,
+        "clickThrough": true,
+        "showOnOverviewOnly": true
+      },
+      "positions": {
+        "0x15E7": {
+          "width": 159.1796875,
+          "height": 1080,
+          "x": 1760.8203125,
+          "y": 0
+        },
+        "HP E243m-1": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        },
+        "HP E243m-0": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        },
+        "_synced": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 100
+        }
+      }
+    },
+    {
       "id": "dw_1774538471028_rkljppbqo",
       "widgetType": "desktopClock",
       "name": "Desktop Clock",
@@ -1080,6 +1170,50 @@
           "height": 480,
           "x": 800,
           "y": 300
+        }
+      }
+    },
+    {
+      "id": "dw_1780501781215_juirswshh",
+      "widgetType": "desktopCommand",
+      "name": "Desktop Command",
+      "enabled": false,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "showOnOverlay": false,
+        "command": "fastfetch",
+        "autoRefresh": true,
+        "commandTimeout": "5",
+        "refreshInterval": "60",
+        "syncPositionAcrossScreens": true,
+        "showOnOverviewOnly": true
+      },
+      "positions": {
+        "0x15E7": {
+          "width": 893.43359375,
+          "height": 470.11328125,
+          "x": 1009.984375,
+          "y": 75.28515625
+        },
+        "HP E243m-1": {
+          "width": 200,
+          "height": 200,
+          "x": 841.1328125,
+          "y": 354.97265625
+        },
+        "HP E243m-0": {
+          "width": 200,
+          "height": 200,
+          "x": 860,
+          "y": 440
+        },
+        "_synced": {
+          "x": 0.5260335286458333,
+          "y": 0.06970847800925926,
+          "width": 893.43359375,
+          "height": 470.11328125
         }
       }
     }
