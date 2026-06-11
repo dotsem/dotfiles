@@ -1,5 +1,0 @@
-[global]
-font = Monospace 10
-background = "#ff8800"
-foreground = "#000000"
-timeout = 5
