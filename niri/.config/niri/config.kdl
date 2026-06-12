@@ -64,7 +64,7 @@ binds {
     Mod+V                   hotkey-overlay-title="Open clickboard" { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
     Mod+Shift+X             hotkey-overlay-title="Power Menu: Toggle" { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
     Mod+Comma               hotkey-overlay-title="Settings" { spawn "noctalia" "msg" "settings-toggle"; }
-    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "dms" "ipc" "call" "lock" "lock"; }
+    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
 //    Mod+N                   hotkey-overlay-title="notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
 //    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "dms" "ipc" "call" "color-picker" "toggle"; }
 //    Mod+Shift+U             hotkey-overlay-title="wallpaper carousel" { spawn "dms" "ipc" "wallpaperCarousel" "toggle"; }
