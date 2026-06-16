@@ -62,12 +62,12 @@ binds {
     Mod+Return              hotkey-overlay-title="Open terminal: Alacritty" repeat=false { spawn "alacritty"; }
     Mod+X                   hotkey-overlay-title="Run an Application" { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
     Mod+V                   hotkey-overlay-title="Open clickboard" { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
-    Mod+Shift+X             hotkey-overlay-title="Power Menu: Toggle" { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
+    Mod+Shift+X             hotkey-overlay-title="Open control center" { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
     Mod+Comma               hotkey-overlay-title="Settings" { spawn "noctalia" "msg" "settings-toggle"; }
     Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
 //    Mod+N                   hotkey-overlay-title="notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
 //    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "dms" "ipc" "call" "color-picker" "toggle"; }
-//    Mod+Shift+U             hotkey-overlay-title="wallpaper carousel" { spawn "dms" "ipc" "wallpaperCarousel" "toggle"; }
+    Mod+U                   hotkey-overlay-title="Select Wallpaper" { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
     Mod+Ctrl+L              allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
     Mod+G                   hotkey-overlay-title="Open webbrowser: Chrome" { spawn "google-chrome-stable"; }
     Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Thunar" { spawn "thunar"; }
@@ -75,22 +75,22 @@ binds {
 
     // audio
     XF86AudioMute           allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
-    XF86AudioRaiseVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }
+    XF86AudioRaiseVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+" "-l" "1.1"; }
     XF86AudioLowerVolume    allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05-"; }
     XF86AudioMicMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
 
     // brightness
     XF86MonBrightnessUp     allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
-    XF86MonBrightnessDown   allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
+    XF86MonBrightnessDown   allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-" "-n" "10%"; }
 
     // media
-    XF86AudioPlay           allow-when-locked=true { spawn-sh "playerctl play-pause"; }
-    XF86AudioStop           allow-when-locked=true { spawn-sh "playerctl stop"; }
-    XF86AudioPrev           allow-when-locked=true { spawn-sh "playerctl previous"; }
-    XF86AudioNext           allow-when-locked=true { spawn-sh "playerctl next"; }
-    Mod+K                   allow-when-locked=true hotkey-overlay-title="Play/pause music" { spawn-sh "playerctl play-pause"; }
-    Mod+Ctrl+K              allow-when-locked=true hotkey-overlay-title="Previous Song" { spawn-sh "playerctl previous"; }
-    Mod+Shift+K             allow-when-locked=true hotkey-overlay-title="Next Song" { spawn-sh "playerctl next"; }
+    XF86AudioPlay           allow-when-locked=true { spawn-sh "playerctl --player=spotify play-pause"; }
+    XF86AudioStop           allow-when-locked=true { spawn-sh "playerctl --player=spotify stop"; }
+    XF86AudioPrev           allow-when-locked=true { spawn-sh "playerctl --player=spotify previous"; }
+    XF86AudioNext           allow-when-locked=true { spawn-sh "playerctl --player=spotify next"; }
+    Mod+K                   allow-when-locked=true hotkey-overlay-title="Play/pause music" { spawn-sh "playerctl --player=spotify play-pause"; }
+    Mod+Ctrl+K              allow-when-locked=true hotkey-overlay-title="Previous Song" { spawn-sh "playerctl --player=spotify previous"; }
+    Mod+Shift+K             allow-when-locked=true hotkey-overlay-title="Next Song" { spawn-sh "playerctl --player=spotify next"; }
 
     // screenshot
     Print                   { screenshot show-pointer=false; }
@@ -256,3 +256,5 @@ workspace "social" {
 
 }
 include "dms/outputs.kdl"
+
+include "noctalia.kdl"
