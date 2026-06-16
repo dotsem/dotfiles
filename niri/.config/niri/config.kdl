@@ -69,7 +69,7 @@ binds {
 //    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "dms" "ipc" "call" "color-picker" "toggle"; }
     Mod+U                   hotkey-overlay-title="Select Wallpaper" { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
     Mod+Ctrl+L              allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
-    Mod+G                   hotkey-overlay-title="Open webbrowser: Chrome" { spawn "google-chrome-stable"; }
+    Mod+G                   hotkey-overlay-title="Open webbrowser: Brave" { spawn "brave"; }
     Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Thunar" { spawn "thunar"; }
     Mod+M                   hotkey-overlay-title="Open Btop" { spawn "alacritty" "-e" "btop"; }
 
