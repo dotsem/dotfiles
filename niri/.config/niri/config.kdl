@@ -128,8 +128,10 @@ binds {
     Mod+Ctrl+A              { move-workspace-to-monitor-left; }
     Mod+Ctrl+E              { move-workspace-to-monitor-right; }
 
-    Mod+WheelScrollDown     cooldown-ms=150 { focus-column-left; }
-    Mod+WheelScrollUp       cooldown-ms=150 { focus-column-right; }
+    Mod+WheelScrollDown     cooldown-ms=150 { focus-workspace-down; }
+    Mod+WheelScrollUp       cooldown-ms=150 { focus-workspace-up; }
+    Mod+WheelScrollLeft     cooldown-ms=150 { focus-column-left; }
+    Mod+WheelScrollRight       cooldown-ms=150 { focus-column-right; }
 
     Mod+Ampersand           { focus-workspace 1; }
     Mod+eacute              { focus-workspace 2; }
