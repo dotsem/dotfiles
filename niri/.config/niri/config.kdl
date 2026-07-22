@@ -10,6 +10,10 @@ spawn-at-startup "sh" "-c" "while ! busctl --user status org.gnome.Mutter.Screen
 
 include "shader.kdl"
 
+switch-events {
+    lid-close { spawn "noctalia" "msg" "session" "lock-and-suspend"; }
+}
+
 input {
     keyboard {
         xkb {
@@ -64,7 +68,7 @@ binds {
     Mod+V                   hotkey-overlay-title="Open clickboard" { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
     Mod+Shift+X             hotkey-overlay-title="Open control center" { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
     Mod+Comma               hotkey-overlay-title="Settings" { spawn "noctalia" "msg" "settings-toggle"; }
-    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
+    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen" { spawn "noctalia" "msg" "session" "lock-and-suspend";}
 //    Mod+N                   hotkey-overlay-title="notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
 //    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "dms" "ipc" "call" "color-picker" "toggle"; }
     Mod+U                   hotkey-overlay-title="Select Wallpaper" { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
@@ -233,30 +237,6 @@ layer-rule {
 
 prefer-no-csd
 
-workspace "plan" {
-
-}
-
-window-rule {
-    match at-startup=true app-id="carpe_diem$"
-    open-maximized true
-
-}
-
-
-workspace "music" {
-
-}
-
-window-rule {
-    match at-startup=true app-id="easyeffects$"
-    match at-startup=true app-id="spotify"
-    open-on-workspace "music"
-}
-
-workspace "social" {
-
-}
 include "dms/outputs.kdl"
 
 include "noctalia.kdl"
