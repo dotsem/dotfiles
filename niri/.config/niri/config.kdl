@@ -68,11 +68,10 @@ binds {
     Mod+V                   hotkey-overlay-title="Open clickboard" { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
     Mod+Shift+X             hotkey-overlay-title="Open control center" { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
     Mod+Comma               hotkey-overlay-title="Settings" { spawn "noctalia" "msg" "settings-toggle"; }
-    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen" { spawn "noctalia" "msg" "session" "lock-and-suspend";}
+    Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen" { spawn "noctalia" "msg" "session" "lock";}
 //    Mod+N                   hotkey-overlay-title="notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
 //    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "dms" "ipc" "call" "color-picker" "toggle"; }
     Mod+U                   hotkey-overlay-title="Select Wallpaper" { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
-    Mod+Ctrl+L              allow-inhibiting=false hotkey-overlay-title="Lock the Screen: Hyprlock" { spawn "hyprlock"; }
     Mod+G                   hotkey-overlay-title="Open webbrowser: Brave" { spawn "brave"; }
     Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Thunar" { spawn "thunar"; }
     Mod+M                   hotkey-overlay-title="Open Btop" { spawn "alacritty" "-e" "btop"; }

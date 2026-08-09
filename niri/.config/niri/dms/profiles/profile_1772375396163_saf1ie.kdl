@@ -3,54 +3,60 @@
 output "Dell Inc. DELL P2412H TTMDG27R0LNU" {
     mode "1920x1080@60.000"
     scale 1
-    position x=0 y=1094
+    position x=0 y=1454
 }
 
 output "Messeltronik Dresden GmbH MD20641 Unknown" {
     mode "1920x1080@60.000"
     scale 1
-    position x=426 y=0
+    position x=426 y=360
+}
+
+output "HP Inc. HP P34hc G4 CNC324182Q" {
+    mode "3440x1440@59.973"
+    scale 1
+    position x=826 y=0
 }
 
 output "HP Inc. HP E243m 3CQ117077P" {
     mode "1920x1080@60.000"
     scale 1
-    position x=1824 y=1383
+    position x=1824 y=1743
 }
 
 output "Philips Consumer Electronics Company 65BDL3511Q 0x01010101" {
     mode "1920x1080@60.000"
     scale 1
-    position x=1920 y=1094
+    position x=1920 y=1454
 }
 
 output "Dell Inc. DELL P2225H F26BN14" {
     mode "1920x1080@60.000"
     scale 1
-    position x=1920 y=1094
+    position x=1920 y=1454
 }
 
 output "PNP(AOC) 24G1WG4 HDDL6HA050732" {
     mode "1920x1080@60.000"
     scale 1
-    position x=2346 y=0
+    position x=2346 y=360
 }
 
 output "HP Inc. HP E243m 3CQ1170C5P" {
     mode "1920x1080@60.000"
     scale 1
-    position x=3744 y=1383
+    position x=3744 y=1743
 }
 
 output "Chimei Innolux Corporation 0x15E7 Unknown" {
     mode "1920x1080@60.008"
     scale 1
-    position x=4266 y=0
+    position x=4266 y=360
 }
 
 output "Acer Technologies Acer H235H LHF080014201" {
     mode "1920x1080@60.000"
     scale 1
-    position x=5664 y=303
+    position x=5664 y=663
 }
 

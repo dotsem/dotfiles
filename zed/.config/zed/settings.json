@@ -7,14 +7,27 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "mode": "plan",
+        "model": "haiku"
+      },
+      "type": "registry"
+    }
+  },
   "collaboration_panel": {
     "dock": "left"
   },
   "agent": {
+    "play_sound_when_agent_done": "when_hidden",
+    "notify_when_agent_waiting": "primary_screen",
+    "default_profile": "ask",
     "default_model": {
-      "provider": "google",
-      "model": "gemini-3-flash-preview",
-      "enable_thinking": false
+      "effort": "high",
+      "provider": "anthropic",
+      "model": "claude-opus-4-7",
+      "enable_thinking": true
     },
     "dock": "left",
     "favorite_models": [],
@@ -49,7 +62,7 @@
   },
   "terminal": {
     "font_family": "MesloLGS NF",
-    "dock": "bottom"
+    "dock": "right"
   },
   "minimap": {
     "show": "always"
@@ -67,7 +80,7 @@
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
-    "mode": "dark",
+    "mode": "system",
     "light": "One Light",
     "dark": "One Dark Pro"
   }
