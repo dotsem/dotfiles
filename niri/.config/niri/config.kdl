@@ -70,7 +70,7 @@ binds {
     Mod+Comma               hotkey-overlay-title="Settings" { spawn "noctalia" "msg" "settings-toggle"; }
     Mod+L                   allow-inhibiting=false hotkey-overlay-title="Lock the Screen" { spawn "noctalia" "msg" "session" "lock";}
 //    Mod+N                   hotkey-overlay-title="notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
-//    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "dms" "ipc" "call" "color-picker" "toggle"; }
+    Mod+Shift+C             hotkey-overlay-title="color picker" { spawn "noctalia" "msg" "panel-toggle" "oldirtty/color_picker:panel"; }
     Mod+U                   hotkey-overlay-title="Select Wallpaper" { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
     Mod+G                   hotkey-overlay-title="Open webbrowser: Brave" { spawn "brave"; }
     Mod+Ctrl+X              hotkey-overlay-title="Open file explorer: Thunar" { spawn "thunar"; }
