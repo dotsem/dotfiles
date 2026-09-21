@@ -43,15 +43,6 @@ input {
     workspace-auto-back-and-forth
 }
 
-output "" {
-    mode "1920x1080@60"
-    scale 1.0
-
-    hot-corners {
-        off
-    }
-}
-
 hotkey-overlay {
     skip-at-startup
 }
@@ -236,6 +227,7 @@ layer-rule {
 
 prefer-no-csd
 
-include "dms/outputs.kdl"
-
 include "noctalia.kdl"
+
+// Monique monitor configuration
+include "monitors.kdl"
