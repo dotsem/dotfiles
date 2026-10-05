@@ -14,6 +14,10 @@ fish_add_path ~/.local/bin
 fish_add_path ~/go/bin
 fish_add_path ~/flutter/bin
 fish_add_path ~/.cargo/bin
+fish_add_path ~/.dotnet/tools
+
+# temp paths
+fish_add_path ~/.platformio/packages/toolchain-xtensa-esp32s3/bin
 
 # shell config
 if status is-interactive
@@ -72,6 +76,9 @@ if status is-interactive
     abbr --add zed zeditor
     abbr --add ag antigravity
 
+    abbr --add semgrep 'docker run --rm -v $(pwd):/src returntocorp/semgrep semgrep --config=p/owasp-top-ten'
+    abbr --add gitleaks 'docker run --rm -v $(pwd):/repo zricethezav/gitleaks:latest detect --source=/repo -v'
+
     # functions
     # ---------
 
@@ -112,3 +119,4 @@ if not string match -q -- $PNPM_HOME $PATH
     set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+mise activate fish | source
