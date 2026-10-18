@@ -1,7 +1,7 @@
 {
     "name": "Untitled",
     "DesktopAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 537001985,
         "name": "Desktop Audio",
         "uuid": "21dba7ef-6572-4a0a-8dac-56d432b72189",
         "id": "pulse_output_capture",
@@ -32,7 +32,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 537001985,
         "name": "Mic/Aux",
         "uuid": "32e9c3a8-6443-475e-95cb-ac976377945c",
         "id": "pulse_input_capture",
@@ -64,7 +64,7 @@
     },
     "sources": [
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001985,
             "name": "Video Capture Device (PipeWire) (BETA)",
             "uuid": "9be4bb07-9836-440f-bd0c-384e034eb085",
             "id": "pipewire-camera-source",
@@ -92,7 +92,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001985,
             "name": "Video Capture Device (V4L2)",
             "uuid": "e6645633-63ae-4dd3-940a-96b8d953ce90",
             "id": "v4l2_input",
@@ -120,7 +120,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001985,
             "name": "Audio Input Capture (PulseAudio)",
             "uuid": "5a9705b0-75a6-4053-8367-aad562dac9dc",
             "id": "pulse_input_capture",
@@ -151,13 +151,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001985,
             "name": "Screen Capture (PipeWire)",
             "uuid": "c2cedb53-718a-44f5-b5ee-0a8eff2629fe",
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "935859cb-c495-4d07-acb0-e9168b95663e"
+                "RestoreToken": "7IAEiewnjd8ayiFz3BsoQQ"
             },
             "mixers": 0,
             "sync": 0,
@@ -177,7 +177,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001985,
             "name": "Scene",
             "uuid": "e800c09b-bb5b-4396-8be1-1e8cf72484c0",
             "id": "scene",
@@ -323,7 +323,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001985,
             "name": "guitar",
             "uuid": "7cb5c7b8-8a32-4549-af5c-d85bb72fef4a",
             "id": "scene",
