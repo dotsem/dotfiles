@@ -110,6 +110,11 @@ if status is-interactive
             deactivate
         end
     end
+ 
+    # modern nix-shell alternative
+    function ns
+	nix shell (string replace -r '^' 'nixpkgs#' $argv)
+    end
 
     # pnpm
     set -gx PNPM_HOME "/home/sem/.local/share/pnpm"
