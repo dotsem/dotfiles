@@ -128,9 +128,9 @@ sidebar_section = "full"
     type = "audio"
 
 [desktop_widgets]
-enabled = false
+enabled = true
 schema_version = 2
-widget_order = [ "desktop-widget-0000000000000001", "desktop-widget-0000000000000002" ]
+widget_order = []
 
     [desktop_widgets.grid]
     cell_size = 16
@@ -176,7 +176,7 @@ widget_order = [ "desktop-widget-0000000000000001", "desktop-widget-000000000000
 active_monitor_only = true
 active_opacity = 1.0
 active_scale = 1.0
-auto_hide = true
+auto_hide = false
 background_opacity = 0.5
 cross_axis_padding = 8
 enabled = true
@@ -192,7 +192,19 @@ main_axis_padding = 24
 margin_edge = 8
 margin_ends = 0
 monitors = []
-pinned = [ "thunar", "Alacritty", "spotify-launcher", "brave-browser", "chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default" ]
+pinned = [
+    "thunar",
+    "Alacritty",
+    "spotify-launcher",
+    "brave-browser",
+    "chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default",
+    "chrome-cifhbcnohmdccbgoicgdjpfamggdegmo-Default",
+    "chrome-faolnafnngnfdaknnbpnkhgohbobgegn-Default",
+    "com.dotsem.carpe_diem",
+    "vesktop",
+    "code",
+    "antigravity-ide"
+]
 position = "bottom"
 radius = 48
 radius_bottom_left = 48
@@ -204,6 +216,7 @@ shadow = true
 show_dots = true
 show_instance_count = true
 show_running = true
+smart_auto_hide = true
 
 [hooks]
 battery_charging = []
@@ -589,9 +602,9 @@ collapse_on_dismiss = true
 enable_daemon = true
 layer = "top"
 monitors = []
-offset_x = 20
-offset_y = 8
-position = "top_right"
+offset_x = 12
+offset_y = 12
+position = "bottom_right"
 scale = 1.0
 show_actions = true
 show_app_name = true
@@ -821,10 +834,10 @@ transition_on_startup = true
     recursive = true
 
     [wallpaper.default]
-    path = "/home/sem/Pictures/wallpapers/9.jpg"
+    path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
 
     [wallpaper.last]
-    path = "/home/sem/Pictures/wallpapers/9.jpg"
+    path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
 
     [wallpaper.monitors.DP-3]
     path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
@@ -833,22 +846,22 @@ transition_on_startup = true
     path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
 
     [wallpaper.monitors.DP-5]
-    path = "/home/sem/Pictures/wallpapers/1.jpg"
-
-    [wallpaper.monitors.DP-6]
-    path = "/home/sem/Pictures/wallpapers/1.jpg"
-
-    [wallpaper.monitors.DP-7]
     path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
 
+    [wallpaper.monitors.DP-6]
+    path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
+
+    [wallpaper.monitors.DP-7]
+    path = "/home/sem/Pictures/wallpapers/trying-to-find-the-window-class-of-this-pop-up-doesnt-v0-keoow5nnp9kh1.webp"
+
     [wallpaper.monitors.DVI-I-1]
-    path = "/home/sem/Pictures/wallpapers/9.jpg"
+    path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
 
     [wallpaper.monitors.DVI-I-2]
-    path = "/home/sem/Pictures/wallpapers/9.jpg"
+    path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/sem/Pictures/wallpapers/9.jpg"
+    path = "/home/sem/Pictures/wallpapers/wallhaven-je9wow_1920x1080.png"
 
     [[wallpaper.favorite]]
     palette_source = "wallpaper"
