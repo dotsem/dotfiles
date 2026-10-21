@@ -4,6 +4,8 @@ Personal dotfiles repository managed via GNU Stow for Linux workstations
 
 The primary daily driver environment utilizes the **Niri** scrollable-tiling Wayland compositor paired with the **Noctalia** desktop shell and the **Fish** interactive shell. Legacy configurations for **Hyprland** and **DankMaterialShell (DMS)** remain retained in-tree for compatibility and reference purposes for idk how long.
 
+It also includes my wallpapers ([check them out](#wallpapers))
+
 ## Tech Stack & Architecture
 
 ### Core Daily Driver
