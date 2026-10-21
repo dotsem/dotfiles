@@ -76,7 +76,7 @@ if status is-interactive
     abbr --add zed zeditor
     abbr --add ag antigravity
 
-    abbr --add semgrep 'docker run --rm -v $(pwd):/src returntocorp/semgrep semgrep --config=p/owasp-top-ten'
+    abbr --add semgrep 'docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config auto --error'
     abbr --add gitleaks 'docker run --rm -v $(pwd):/repo zricethezav/gitleaks:latest detect --source=/repo -v'
 
     # functions
@@ -110,10 +110,10 @@ if status is-interactive
             deactivate
         end
     end
- 
+
     # modern nix-shell alternative
     function ns
-	nix shell (string replace -r '^' 'nixpkgs#' $argv)
+        nix shell (string replace -r '^' 'nixpkgs#' $argv)
     end
 
     # pnpm
@@ -124,6 +124,4 @@ if status is-interactive
     # pnpm end
     mise activate fish | source
 
-
 end
-
