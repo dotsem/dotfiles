@@ -1,5 +1,4 @@
 spawn-at-startup "noctalia"
-spawn-at-startup "swaync"
 
 // apps
 spawn-at-startup "spotify-launcher"
