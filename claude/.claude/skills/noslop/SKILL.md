@@ -1,6 +1,6 @@
 ---
 name: noslop
-description: "Anti-slop UI styling principles: eliminates generic AI visual tropes, decorative gimmicks and filler copy. Use when designing or reviewing UI."
+description: "Anti-slop UI styling principles: eliminates generic AI visual tropes, decorative gimmicks and filler copy. Use when designing, building or reviewing UI, web (Tailwind) or Flutter."
 ---
 
 # Anti-Slop UI Styling Workflow
@@ -17,6 +17,8 @@ This workflow enforces clean, industrial, and purpose-driven interface design. I
 - Prefer crisp borders over glowing halos.
 - Prefer honest, direct labels over corporate filler jargon.
 - Prefer semantic layout over floating card syndrome.
+
+**Stack mapping.** Examples below use Tailwind/shadcn tokens (`bg-background`, `text-foreground`). In Flutter, the same rules apply through the theme: `Theme.of(context).colorScheme` (`surface`, `onSurface`, `primary`) and `textTheme`. Never hardcode colors or font sizes in either stack.
 
 ---
 
@@ -59,7 +61,7 @@ Every design and code review must actively screen for and eliminate these 8 anti
 ### 7. Disproportional Typography & Cramped Elements
 
 - **The Slop:** Huge display headings (`text-4xl`) placed right above miniature, tight inputs (`h-7`), or random font sizes without an underlying scale.
-- **The Rule:** Match heading scale to container width. Maintain ergonomic tap/click heights on interactive elements (minimum 32px–40px on primary actions). Align type scales consistently.
+- **The Rule:** Match heading scale to container width. Interactive elements need real touch targets: at least 44px on web and 48dp in Flutter (Material's `kMinInteractiveDimension`). Go down to 32px only for dense, desktop-only controls. Align type scales consistently.
 
 ### 8. Faux-Enterprise Symmetry
 
@@ -77,5 +79,6 @@ Before finalizing any UI implementation, run this verification:
 - [ ] **Copy**: Is every heading and description brief, direct, and free of marketing buzzwords?
 - [ ] **Contrast**: Are borders and text crisp, high-contrast, and legible according to the design system?
 - [ ] **Icons**: Does every single icon serve an actual functional purpose?
-- [ ] **Rhythm**: Are element heights, paddings, and font sizes balanced and comfortable to interact with?
+- [ ] **Rhythm**: Are element heights, paddings, and font sizes balanced, with touch targets of at least 44px (web) / 48dp (Flutter)?
+- [ ] **Tokens**: Does every color and type style come from the theme (Tailwind tokens or `Theme.of(context)`), with nothing hardcoded?
 - [ ] **Alignment**: Is content aligned naturally rather than arbitrarily centered?
