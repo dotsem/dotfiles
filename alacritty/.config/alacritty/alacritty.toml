@@ -28,7 +28,6 @@ bindings = [
 
 [general]
 import = [
-    "./dank-theme.toml",
-    "~/.config/alacritty/themes/noctalia.toml",
+    "./themes/noctalia.toml",
 ]
 
