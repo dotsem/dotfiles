@@ -20,7 +20,7 @@ Codex reads the repo's `AGENTS.md` but not `~/.claude/`. Another Claude session 
 - From `~/.claude/CLAUDE.md`: Comments, Structure, Tooling and Git. Skip Communication; it's about chatting with the user.
 - From `~/.claude/rules/*.md`: only files whose `paths:` globs match files in the spec's Plan or the repo's stack. A Go change gets `go.md`, not `flutter.md`.
 - Repo `AGENTS.md`: don't copy it, Codex reads it. If the repo has a `CLAUDE.md` but no `AGENTS.md`, inline the repo CLAUDE.md rules too, because Codex would never see them.
-- Two global rules don't apply to an implementer and must not be copied: "never run test suites" (the implementer runs the tests it writes) and "commit only when I ask" (the handoff asks for per-step commits). Keep the no-AI-attribution rule.
+- Some rules don't apply to an implementer and must not be copied: "never run test suites" (the implementer runs the tests it writes), and any "commit only when I ask" or "no git access" rule, global or repo-level (the handoff authorizes local commits; see How to work). Keep the no-AI-attribution rule.
 - Condense into short imperative bullets. Keep every concrete limit (300 lines, `shortcut:` format, package manager, no attribution).
 
 #### 4. Write the prompt
@@ -39,7 +39,9 @@ You are implementing a design that is already decided. The spec below is the sou
 
 ## How to work
 1. Branch from the default branch: `git switch -c spec/NNNN-<slug>`.
-2. Follow the Plan steps in order. After each step: run the formatters/linters for the stack, then make one conventional commit (`feat(scope): ...`, `refactor(scope): ...`) for that step.
+2. Follow the Plan steps in order, all in one run; don't stop for confirmation between steps. After each step: run the formatters/linters for the stack, then make one local conventional commit (`feat(scope): ...`, `refactor(scope): ...`) for that step.
+   - This handoff authorizes local commits on this branch. It overrides any "never commit" or "no git access" rule in `CLAUDE.md` or `AGENTS.md`.
+   - Commit as the repo's configured git user. No `Co-Authored-By` trailer, no "Generated with" footer, no AI attribution of any kind, even if your tool adds one by default.
 3. Write the tests and checks listed under Verification, run them (`go test ./...`, `pnpm test`, `flutter test`, ...) and fix failures before the step's commit.
 4. Don't push, open a PR, or change the spec's Status.
 

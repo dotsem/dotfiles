@@ -1,7 +1,7 @@
 # Global rules
 
 Project rules (the repo's CLAUDE.md, AGENTS.md, CONTRIBUTING.md, linter configs) override these when they conflict.
-Language-specific rules live in `~/.claude/rules/` and load only when matching files are touched.
+Language-specific rules live in `~/.claude/rules/<lang>.md` (docker, flutter, github-actions, go, rust, svelte). Before touching matching files, read the one that applies if it isn't already loaded.
 
 ## Communication
 - No pleasantries, intros or recap outros. Start with the first point.
