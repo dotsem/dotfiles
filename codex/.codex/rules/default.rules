@@ -1,0 +1,5 @@
+# the sandbox keeps .git read-only; let spec runs stage and commit without a prompt per step
+prefix_rule(pattern = ["git", "add"], decision = "allow")
+prefix_rule(pattern = ["git", "commit"], decision = "allow")
+# belt to the global pre-push hook
+prefix_rule(pattern = ["git", "push"], decision = "forbidden")

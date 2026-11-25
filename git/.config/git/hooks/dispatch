@@ -1,0 +1,21 @@
+#!/bin/sh
+# Global hooks (core.hooksPath) shadow .git/hooks, so every hook name points here
+# and chains to the repo-local hook after the global checks.
+name=$(basename "$0")
+
+case "$name" in
+commit-msg)
+	# agents (codex) add attribution by default; strip it instead of rejecting so their loop keeps going
+	sed -i -E '/^Co-authored-by:.*noreply@(openai|anthropic)\.com/Id; /Generated with \[?(Claude|Codex)/d' "$1"
+	;;
+pre-push)
+	if [ -n "$CODEX_THREAD_ID$CODEX_SESSION_ID$CODEX_SANDBOX" ]; then
+		echo "pre-push: pushing from a Codex session is blocked; push it yourself" >&2
+		exit 1
+	fi
+	;;
+esac
+
+local_hook="$(git rev-parse --git-common-dir)/hooks/$name"
+[ -x "$local_hook" ] && exec "$local_hook" "$@"
+exit 0
