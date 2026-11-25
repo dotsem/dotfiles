@@ -1,0 +1,74 @@
+{
+  "model": "sonnet",
+  "enabledPlugins": {
+    "ponytail@ponytail": true,
+    "superpowers@anthropic-plugin-directory": true
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    }
+  },
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    },
+    "claude-sonnet-4-6": {
+      "effortLevel": "medium"
+    }
+  },
+  "pluginConfigs": {
+    "ponytail@ponytail": {
+      "options": {
+        "ledger": true,
+        "sendNames": true
+      }
+    }
+  },
+  "theme": "auto",
+  "skillOverrides": {
+    "anthropic-skills:built-in-browser": "user-invocable-only",
+    "anthropic-skills:chrome-browser": "user-invocable-only",
+    "anthropic-skills:docs": "off",
+    "anthropic-skills:docx": "off",
+    "question": "user-invocable-only",
+    "spec": "user-invocable-only",
+    "spec-audit": "user-invocable-only",
+    "handoff": "user-invocable-only",
+    "roadmap": "user-invocable-only",
+    "flow": "user-invocable-only",
+    "thinker": "user-invocable-only",
+    "doc": "user-invocable-only",
+    "noslop": "name-only",
+    "anthropic-skills:skill-creator": "user-invocable-only",
+    "anthropic-skills:xlsx": "off",
+    "anthropic-skills:pptx": "off",
+    "anthropic-skills:pdf": "off",
+    "readme": "user-invocable-only",
+    "anthropic-skills:morning": "user-invocable-only",
+    "anthropic-skills:import-memory": "user-invocable-only",
+    "code-review": "user-invocable-only",
+    "simplify": "user-invocable-only",
+    "security-review": "user-invocable-only",
+    "init": "user-invocable-only",
+    "loop": "user-invocable-only",
+    "schedule": "user-invocable-only",
+    "fewer-permission-prompts": "user-invocable-only",
+    "update-config": "user-invocable-only",
+    "keybindings-help": "user-invocable-only",
+    "plugin-authoring": "user-invocable-only",
+    "run": "user-invocable-only",
+    "artifact-design": "name-only",
+    "artifact-capabilities": "name-only",
+    "artifact-diagramming": "name-only",
+    "dataviz": "name-only",
+    "claude-api": "name-only",
+    "claude-in-chrome": "name-only",
+    "anthropic-skills:computer-use": "off",
+    "anthropic-skills:deep-research": "off",
+    "anthropic-skills:google-workspace": "off"
+  }
+}
