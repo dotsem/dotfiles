@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: claude-session-handoff
+expected_outcome: |
+  A prompt for spec 0001 aimed at a Claude session that leaves out the inlined rules section but keeps scope, non-goals, branch, per-step commits and the full spec.
+context:
+  scaffold_script: place-files.sh
